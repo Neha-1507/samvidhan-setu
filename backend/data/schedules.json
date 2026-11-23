@@ -1,0 +1,14 @@
+[
+  {"number": 1, "title_en": "States and Union Territories", "title_hi": "राज्य और संघ राज्यक्षेत्र", "about_en": "Names of the States and Union Territories and their territories."},
+  {"number": 2, "title_en": "Emoluments of constitutional office-holders", "title_hi": "संवैधानिक पदधारकों के वेतन-भत्ते", "about_en": "Provisions on salaries and allowances of the President, Governors, Speakers, judges and certain other office-holders."},
+  {"number": 3, "title_en": "Forms of oaths and affirmations", "title_hi": "शपथ और प्रतिज्ञान के प्रारूप", "about_en": "Oath or affirmation forms for Union and State ministers, legislators, judges and others."},
+  {"number": 4, "title_en": "Allocation of seats in the Council of States", "title_hi": "राज्य सभा में स्थानों का आबंटन", "about_en": "Number of Rajya Sabha seats allotted to each State and Union Territory."},
+  {"number": 5, "title_en": "Scheduled Areas and Scheduled Tribes", "title_hi": "अनुसूचित क्षेत्र और अनुसूचित जनजातियाँ", "about_en": "Administration and control of Scheduled Areas and Scheduled Tribes."},
+  {"number": 6, "title_en": "Tribal areas in Assam, Meghalaya, Tripura and Mizoram", "title_hi": "असम, मेघालय, त्रिपुरा और मिजोरम के जनजातीय क्षेत्र", "about_en": "Administration of tribal areas in these four States, including autonomous district councils."},
+  {"number": 7, "title_en": "Union, State and Concurrent Lists", "title_hi": "संघ, राज्य और समवर्ती सूची", "about_en": "Division of legislative subjects between the Union and the States."},
+  {"number": 8, "title_en": "Languages", "title_hi": "भाषाएँ", "about_en": "Languages recognised in the Constitution."},
+  {"number": 9, "title_en": "Validation of certain Acts and Regulations", "title_hi": "कुछ अधिनियमों और विनियमों का विधिमान्यकरण", "about_en": "Added by the First Amendment, mainly concerning land reform laws."},
+  {"number": 10, "title_en": "Anti-defection provisions", "title_hi": "दल-परिवर्तन के आधार पर निरर्हता", "about_en": "Disqualification of legislators on grounds of defection."},
+  {"number": 11, "title_en": "Powers of Panchayats", "title_hi": "पंचायतों की शक्तियाँ", "about_en": "Subjects on which Panchayats can be given powers and responsibilities."},
+  {"number": 12, "title_en": "Powers of Municipalities", "title_hi": "नगरपालिकाओं की शक्तियाँ", "about_en": "Subjects on which Municipalities can be given powers and responsibilities."}
+]
