@@ -38,3 +38,6 @@ Verify every summary against the official text before committing.
 - [ ] Phase 3: Case law intelligence
 - [ ] Phase 4: Document intelligence
 - [ ] Phase 5: Voice, court tracker, mobile
+
+## Live Deployment
+- Backend (Render): https://samvidhan-setu.onrender.com
