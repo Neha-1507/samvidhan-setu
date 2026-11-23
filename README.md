@@ -41,3 +41,5 @@ Verify every summary against the official text before committing.
 
 ## Live Deployment
 - Backend (Render): https://samvidhan-setu.onrender.com
+
+- Frontend (Vercel): Next.js App
