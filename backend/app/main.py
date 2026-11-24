@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from .analyze import router as analyze_router
 from .articles import get_article, search_articles
 from .ask import router as ask_router
 from .cases import router as cases_router
@@ -14,7 +15,7 @@ app = FastAPI(title="Samvidhan Setu API", version="0.4.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
@@ -24,6 +25,7 @@ app.include_router(sections_router)
 app.include_router(cases_router)
 app.include_router(rights_router)
 app.include_router(quiz_router)
+app.include_router(analyze_router)
 
 
 @app.get("/health")
