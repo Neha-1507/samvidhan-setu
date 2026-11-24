@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 39 tests pass (nothing fails).
+Expected: 45 tests pass (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -55,3 +55,13 @@ Restore: cp /tmp/acts.json data/bare_acts.json
 - /api/rights/arrest           -> 6 steps, 2 helplines
 - Frontend /rights, open "arrest", toggle Hindi, tap a helpline (tel: link), tap a related provision (opens Ask)
 - Every "related" item must exist in the database: pytest checks this, so no fake citations
+
+## Quiz and app polish (added in part 5)
+- /api/quiz?n=5&seed=1             -> 5 questions, same output every time with the same seed
+- /api/quiz?kind=case              -> only case-law questions
+- Frontend /quiz: pick a topic, answer, see explanation, finish, play again; switch to Hindi mid-quiz
+- Stop the backend -> Start shows an error message instead of breaking
+- Home page: 6 feature cards, search box sends you to Ask, Hindi/English toggle
+- Open /nonexistent -> friendly 404 page
+- Phone width (about 380px): nav wraps, no sideways scrolling
+- Browser tab shows the new icon

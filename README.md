@@ -48,5 +48,6 @@ python scripts/mark_verified.py articles 21 22
 - [~] Phase 2: Legal AI (retrieval + Bare Acts done; embeddings and LLM answers next)
 - [~] Phase 3: Case law intelligence (8 landmark cases searchable; judgment search and comparison next)
 - [x] Citizen rights guides: arrest, FIR, bail, legal aid, cyber fraud, women's safety
+- [x] Legal learning: auto-generated quiz (Constitution, new criminal laws, landmark cases)
 - [ ] Phase 4: Document intelligence
 - [ ] Phase 5: Voice, court tracker, mobile
