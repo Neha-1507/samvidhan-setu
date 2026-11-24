@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
             <Link href="/laws">Laws</Link>
             <Link href="/cases">Cases</Link>
             <Link href="/rights">Rights</Link>
+            <Link href="/quiz">Quiz</Link>
             <Link href="/schedules">Schedules</Link>
             <Link href="/preamble">Preamble</Link>
             <Link href="/ask">Ask</Link>
