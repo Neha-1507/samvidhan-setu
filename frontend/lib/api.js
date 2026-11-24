@@ -10,3 +10,6 @@ async function get(path) {
 export const fetchArticles = (q = "") => get(`/api/articles?q=${encodeURIComponent(q)}`);
 export const fetchArticle = (number) => get(`/api/articles/${encodeURIComponent(number)}`);
 export const fetchSchedules = () => get("/api/schedules");
+export const fetchSections = (act = "", q = "") =>
+  get(`/api/sections?act=${encodeURIComponent(act)}&q=${encodeURIComponent(q)}`);
+export const fetchCases = (q = "") => get(`/api/cases?q=${encodeURIComponent(q)}`);
