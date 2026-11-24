@@ -1,0 +1,431 @@
+[
+  {
+    "act": "BNS",
+    "section": "63",
+    "title_en": "Rape",
+    "title_hi": "बलात्कार",
+    "summary_en": "Defines the offence of rape and explains what counts as consent.",
+    "summary_hi": "बलात्कार के अपराध की परिभाषा देती है और बताती है कि सहमति किसे माना जाएगा।",
+    "replaces": "IPC 375",
+    "tags": [
+      "rape",
+      "consent",
+      "women"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-63",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "64",
+    "title_en": "Punishment for rape",
+    "title_hi": "बलात्कार के लिए दंड",
+    "summary_en": "Sets the punishment for rape: rigorous imprisonment and fine, with higher punishment in aggravated cases.",
+    "summary_hi": "बलात्कार के लिए दंड तय करती है: सश्रम कारावास और जुर्माना, गंभीर मामलों में अधिक दंड के साथ।",
+    "replaces": "IPC 376",
+    "tags": [
+      "rape",
+      "punishment",
+      "women"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-64",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "85",
+    "title_en": "Cruelty by husband or his relatives",
+    "title_hi": "पति या उसके रिश्तेदारों द्वारा क्रूरता",
+    "summary_en": "Punishes a husband or his relatives who subject a married woman to cruelty, including harassment connected to dowry demands.",
+    "summary_hi": "विवाहित महिला के साथ क्रूरता करने वाले पति या उसके रिश्तेदारों को दंडित करती है, जिसमें दहेज की मांग से जुड़ा उत्पीड़न भी शामिल है।",
+    "replaces": "IPC 498A",
+    "tags": [
+      "cruelty",
+      "dowry",
+      "women",
+      "domestic"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-85",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "100",
+    "title_en": "Culpable homicide",
+    "title_hi": "आपराधिक मानव वध",
+    "summary_en": "Causing death with the intention of causing death or bodily injury likely to cause death, or with the knowledge that the act is likely to cause death.",
+    "summary_hi": "मृत्यु कारित करने के इरादे से, या ऐसी शारीरिक क्षति के इरादे से जिससे मृत्यु होने की संभावना हो, या यह जानते हुए कि कार्य से मृत्यु हो सकती है, किसी की मृत्यु करना।",
+    "replaces": "IPC 299",
+    "tags": [
+      "homicide",
+      "death",
+      "murder"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-100",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "101",
+    "title_en": "Murder",
+    "title_hi": "हत्या",
+    "summary_en": "Culpable homicide amounts to murder in the circumstances this section lists, for example when the act is done with the intention of causing death.",
+    "summary_hi": "आपराधिक मानव वध इस धारा में बताई गई परिस्थितियों में हत्या माना जाता है, जैसे जब कार्य मृत्यु कारित करने के इरादे से किया गया हो।",
+    "replaces": "IPC 300",
+    "tags": [
+      "murder",
+      "homicide",
+      "hatya"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-101",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "103",
+    "title_en": "Punishment for murder",
+    "title_hi": "हत्या के लिए दंड",
+    "summary_en": "Sets the punishment for murder: death or imprisonment for life, and fine.",
+    "summary_hi": "हत्या के लिए दंड तय करती है: मृत्युदंड या आजीवन कारावास, और जुर्माना।",
+    "replaces": "IPC 302",
+    "tags": [
+      "murder",
+      "punishment",
+      "hatya"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-103",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "115",
+    "title_en": "Voluntarily causing hurt",
+    "title_hi": "स्वेच्छया उपहति कारित करना",
+    "summary_en": "Defines voluntarily causing hurt and sets the punishment for it.",
+    "summary_hi": "स्वेच्छया उपहति कारित करने की परिभाषा देती है और उसका दंड तय करती है।",
+    "replaces": "IPC 321, 323",
+    "tags": [
+      "hurt",
+      "assault",
+      "maarpit"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-115",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "303",
+    "title_en": "Theft",
+    "title_hi": "चोरी",
+    "summary_en": "Defines theft (dishonestly taking movable property out of someone's possession without consent) and sets its punishment.",
+    "summary_hi": "चोरी की परिभाषा (किसी की सहमति के बिना उसके कब्जे से चल संपत्ति बेईमानी से लेना) देती है और उसका दंड तय करती है।",
+    "replaces": "IPC 378, 379",
+    "tags": [
+      "theft",
+      "chori",
+      "property"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-303",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "318",
+    "title_en": "Cheating",
+    "title_hi": "छल (धोखाधड़ी)",
+    "summary_en": "Defines cheating, that is deceiving someone to make them hand over property or act to their loss, and sets the punishment.",
+    "summary_hi": "छल की परिभाषा देती है, यानी किसी को धोखा देकर संपत्ति सौंपने या हानिकारक कार्य करने के लिए प्रेरित करना, और दंड तय करती है।",
+    "replaces": "IPC 415, 420",
+    "tags": [
+      "cheating",
+      "fraud",
+      "dhokha"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-318",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "351",
+    "title_en": "Criminal intimidation",
+    "title_hi": "आपराधिक अभित्रास (धमकी)",
+    "summary_en": "Threatening someone with injury to their person, reputation or property to alarm them or make them do or avoid an act.",
+    "summary_hi": "किसी को डराने या कोई कार्य कराने या रोकने के लिए उसके शरीर, प्रतिष्ठा या संपत्ति को क्षति पहुँचाने की धमकी देना।",
+    "replaces": "IPC 503, 506",
+    "tags": [
+      "threat",
+      "intimidation",
+      "dhamki"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-351",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "35",
+    "title_en": "Arrest by police without warrant",
+    "title_hi": "पुलिस द्वारा बिना वारंट गिरफ्तारी",
+    "summary_en": "Lists when a police officer may arrest without a warrant, and when the officer must instead issue a notice asking the person to appear.",
+    "summary_hi": "बताती है कि पुलिस अधिकारी कब बिना वारंट गिरफ्तार कर सकता है, और कब उसे गिरफ्तारी की जगह उपस्थित होने का नोटिस देना होगा।",
+    "replaces": "CrPC 41, 41A",
+    "tags": [
+      "arrest",
+      "warrant",
+      "police",
+      "giraftari"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-35",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "47",
+    "title_en": "Grounds of arrest and right to bail to be told",
+    "title_hi": "गिरफ्तारी के आधार और जमानत के अधिकार की जानकारी",
+    "summary_en": "A person arrested must be told the full particulars of the offence, and if it is bailable, that they are entitled to be released on bail.",
+    "summary_hi": "गिरफ्तार व्यक्ति को अपराध की पूरी जानकारी दी जानी चाहिए, और यदि अपराध जमानती है तो यह भी कि वह जमानत पर रिहा होने का हकदार है।",
+    "replaces": "CrPC 50",
+    "tags": [
+      "arrest",
+      "rights",
+      "bail",
+      "grounds"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-47",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "58",
+    "title_en": "No detention beyond 24 hours without a magistrate",
+    "title_hi": "मजिस्ट्रेट के बिना 24 घंटे से अधिक निरोध नहीं",
+    "summary_en": "A person arrested without a warrant cannot be kept in police custody for more than 24 hours, excluding travel time, without a magistrate's order.",
+    "summary_hi": "बिना वारंट गिरफ्तार व्यक्ति को यात्रा समय छोड़कर 24 घंटे से अधिक पुलिस हिरासत में मजिस्ट्रेट के आदेश के बिना नहीं रखा जा सकता।",
+    "replaces": "CrPC 57",
+    "tags": [
+      "arrest",
+      "detention",
+      "24 hours",
+      "magistrate"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-58",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "173",
+    "title_en": "Information in cognizable cases (FIR)",
+    "title_hi": "संज्ञेय अपराधों में सूचना (प्राथमिकी/FIR)",
+    "summary_en": "Information about a cognizable offence can be given orally, in writing or electronically to the police, who must record it, and the informant gets a copy.",
+    "summary_hi": "संज्ञेय अपराध की सूचना पुलिस को मौखिक, लिखित या इलेक्ट्रॉनिक रूप से दी जा सकती है; पुलिस उसे दर्ज करेगी और सूचना देने वाले को प्रति मिलेगी।",
+    "replaces": "CrPC 154",
+    "tags": [
+      "fir",
+      "complaint",
+      "police",
+      "register",
+      "darj"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-173",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "187",
+    "title_en": "When investigation cannot be completed in 24 hours",
+    "title_hi": "जब जाँच 24 घंटे में पूरी न हो सके",
+    "summary_en": "Explains how the police must produce the arrested person before a magistrate and when custody can be extended while the investigation continues.",
+    "summary_hi": "बताती है कि पुलिस को गिरफ्तार व्यक्ति को मजिस्ट्रेट के सामने कैसे पेश करना है और जाँच चलने के दौरान हिरासत कब बढ़ाई जा सकती है।",
+    "replaces": "CrPC 167",
+    "tags": [
+      "custody",
+      "remand",
+      "magistrate",
+      "investigation"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-187",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "478",
+    "title_en": "Bail in bailable offences",
+    "title_hi": "जमानती अपराधों में जमानत",
+    "summary_en": "In a bailable offence, a person who is arrested and ready to give bail must be released on bail.",
+    "summary_hi": "जमानती अपराध में गिरफ्तार व्यक्ति, जो जमानत देने को तैयार हो, उसे जमानत पर रिहा किया जाना चाहिए।",
+    "replaces": "CrPC 436",
+    "tags": [
+      "bail",
+      "bailable",
+      "zamanat"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-478",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "479",
+    "title_en": "Maximum period of detention for undertrial prisoners",
+    "title_hi": "विचाराधीन कैदियों की अधिकतम निरोध अवधि",
+    "summary_en": "Limits how long an undertrial prisoner can be kept in jail, linked to the maximum sentence for the offence, after which release on bail is considered.",
+    "summary_hi": "विचाराधीन कैदी को जेल में कितने समय तक रखा जा सकता है इसकी सीमा तय करती है, जो अपराध की अधिकतम सजा से जुड़ी है; उसके बाद जमानत पर रिहाई पर विचार होता है।",
+    "replaces": "CrPC 436A",
+    "tags": [
+      "undertrial",
+      "bail",
+      "jail",
+      "detention"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-479",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "480",
+    "title_en": "Bail in non-bailable offences",
+    "title_hi": "अजमानती अपराधों में जमानत",
+    "summary_en": "Sets when a court may grant bail in a non-bailable offence and the conditions it may impose.",
+    "summary_hi": "बताती है कि अजमानती अपराध में अदालत कब जमानत दे सकती है और कौन सी शर्तें लगा सकती है।",
+    "replaces": "CrPC 437",
+    "tags": [
+      "bail",
+      "non-bailable",
+      "zamanat"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-480",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "482",
+    "title_en": "Anticipatory bail",
+    "title_hi": "अग्रिम जमानत",
+    "summary_en": "A person who fears arrest for a non-bailable offence can ask the High Court or Sessions Court for a direction to be released on bail if arrested.",
+    "summary_hi": "जिस व्यक्ति को अजमानती अपराध में गिरफ्तारी की आशंका हो, वह हाईकोर्ट या सेशन कोर्ट से निर्देश मांग सकता है कि गिरफ्तार होने पर उसे जमानत पर छोड़ा जाए।",
+    "replaces": "CrPC 438",
+    "tags": [
+      "anticipatory bail",
+      "arrest",
+      "zamanat",
+      "agrim"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-482",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "483",
+    "title_en": "Special powers of High Court and Sessions Court on bail",
+    "title_hi": "जमानत पर हाईकोर्ट और सेशन कोर्ट की विशेष शक्तियाँ",
+    "summary_en": "The High Court and Court of Session can direct that a person be released on bail and can change or cancel bail conditions.",
+    "summary_hi": "हाईकोर्ट और सेशन कोर्ट किसी व्यक्ति को जमानत पर रिहा करने का निर्देश दे सकते हैं और जमानत की शर्तें बदल या रद्द कर सकते हैं।",
+    "replaces": "CrPC 439",
+    "tags": [
+      "bail",
+      "high court",
+      "sessions court"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-483",
+    "verified": false
+  },
+  {
+    "act": "BSA",
+    "section": "23",
+    "title_en": "Confession to a police officer",
+    "title_hi": "पुलिस अधिकारी के समक्ष संस्वीकृति",
+    "summary_en": "A confession made to a police officer cannot be used as evidence against the accused, with limited exceptions such as information that leads to discovery of a fact.",
+    "summary_hi": "पुलिस अधिकारी के सामने की गई संस्वीकृति अभियुक्त के विरुद्ध साक्ष्य के रूप में सिद्ध नहीं की जा सकती, सीमित अपवादों को छोड़कर, जैसे वह जानकारी जिससे किसी तथ्य की खोज हो।",
+    "replaces": "Evidence Act 25, 26",
+    "tags": [
+      "confession",
+      "police",
+      "evidence",
+      "sabut"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Sakshya Adhiniyam, 2023",
+    "act_name_hi": "भारतीय साक्ष्य अधिनियम, 2023",
+    "id": "BSA-23",
+    "verified": false
+  },
+  {
+    "act": "BSA",
+    "section": "63",
+    "title_en": "Admissibility of electronic records",
+    "title_hi": "इलेक्ट्रॉनिक अभिलेखों की ग्राह्यता",
+    "summary_en": "Sets the conditions, including a certificate, under which electronic records such as emails, messages and digital files can be used as evidence in court.",
+    "summary_hi": "उन शर्तों को तय करती है, प्रमाणपत्र सहित, जिनके अंतर्गत ईमेल, संदेश और डिजिटल फाइलें जैसे इलेक्ट्रॉनिक अभिलेख अदालत में साक्ष्य के रूप में उपयोग हो सकते हैं।",
+    "replaces": "Evidence Act 65A, 65B",
+    "tags": [
+      "electronic",
+      "digital",
+      "evidence",
+      "certificate"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Sakshya Adhiniyam, 2023",
+    "act_name_hi": "भारतीय साक्ष्य अधिनियम, 2023",
+    "id": "BSA-63",
+    "verified": false
+  }
+]

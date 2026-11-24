@@ -6,8 +6,12 @@
     "title_hi": "विधि के समक्ष समता",
     "summary_en": "The State cannot deny any person equality before the law or equal protection of the laws within India.",
     "summary_hi": "राज्य भारत के राज्यक्षेत्र में किसी व्यक्ति को विधि के समक्ष समता या विधियों के समान संरक्षण से वंचित नहीं करेगा।",
-    "tags": ["equality", "fundamental rights"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "equality",
+      "fundamental rights"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   },
   {
     "number": "19",
@@ -16,8 +20,13 @@
     "title_hi": "वाक्-स्वातंत्र्य आदि विषयक कुछ अधिकारों का संरक्षण",
     "summary_en": "Guarantees citizens freedoms such as speech and expression, peaceful assembly, forming associations, movement, residence and practising any profession, subject to reasonable restrictions.",
     "summary_hi": "नागरिकों को वाक् और अभिव्यक्ति, शांतिपूर्ण सम्मेलन, संघ बनाने, आवागमन, निवास और व्यवसाय की स्वतंत्रता देता है, जो युक्तियुक्त निर्बंधनों के अधीन है।",
-    "tags": ["freedom", "speech", "fundamental rights"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "freedom",
+      "speech",
+      "fundamental rights"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   },
   {
     "number": "21",
@@ -26,8 +35,13 @@
     "title_hi": "प्राण और दैहिक स्वतंत्रता का संरक्षण",
     "summary_en": "No person can be deprived of life or personal liberty except according to procedure established by law.",
     "summary_hi": "किसी व्यक्ति को उसके प्राण या दैहिक स्वतंत्रता से विधि द्वारा स्थापित प्रक्रिया के अनुसार ही वंचित किया जा सकता है।",
-    "tags": ["life", "liberty", "fundamental rights"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "life",
+      "liberty",
+      "fundamental rights"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   },
   {
     "number": "21A",
@@ -36,8 +50,13 @@
     "title_hi": "शिक्षा का अधिकार",
     "summary_en": "The State provides free and compulsory education to children aged six to fourteen, in the manner the State decides by law.",
     "summary_hi": "राज्य छह से चौदह वर्ष के बच्चों को निःशुल्क और अनिवार्य शिक्षा उपलब्ध कराएगा।",
-    "tags": ["education", "children", "fundamental rights"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "education",
+      "children",
+      "fundamental rights"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   },
   {
     "number": "22",
@@ -46,8 +65,13 @@
     "title_hi": "कुछ दशाओं में गिरफ्तारी और निरोध से संरक्षण",
     "summary_en": "A person arrested must be told the grounds of arrest, can consult a lawyer of their choice, and must be produced before a magistrate within 24 hours (excluding travel time). Special rules apply to preventive detention.",
     "summary_hi": "गिरफ्तार व्यक्ति को गिरफ्तारी के आधार बताए जाने चाहिए, वह अपनी पसंद के वकील से परामर्श कर सकता है, और यात्रा समय छोड़कर 24 घंटे के भीतर मजिस्ट्रेट के सामने पेश किया जाना चाहिए। निवारक निरोध के लिए विशेष नियम हैं।",
-    "tags": ["arrest", "detention", "fundamental rights"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "arrest",
+      "detention",
+      "fundamental rights"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   },
   {
     "number": "32",
@@ -56,7 +80,12 @@
     "title_hi": "संवैधानिक उपचारों का अधिकार",
     "summary_en": "Gives the right to move the Supreme Court directly to enforce Fundamental Rights, including through writs.",
     "summary_hi": "मौलिक अधिकारों के प्रवर्तन के लिए रिट सहित सीधे सर्वोच्च न्यायालय जाने का अधिकार देता है।",
-    "tags": ["writ", "supreme court", "remedies"],
-    "source": "https://legislative.gov.in/constitution-of-india/"
+    "tags": [
+      "writ",
+      "supreme court",
+      "remedies"
+    ],
+    "source": "https://legislative.gov.in/constitution-of-india/",
+    "verified": false
   }
 ]
