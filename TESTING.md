@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 35 tests pass (nothing fails).
+Expected: 39 tests pass (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -49,3 +49,9 @@ Restore: cp /tmp/acts.json data/bare_acts.json
 - /api/ask?q=custody+torture+guidelines   -> D.K. Basu first
 - Frontend /cases: search "privacy", toggle Hindi, "Not yet verified" badge shows
 - Verify a case after checking sci.gov.in:  python scripts/mark_verified.py cases DKBASU-1997
+
+## Know Your Rights (added in part 4)
+- /api/rights                  -> 6 topics
+- /api/rights/arrest           -> 6 steps, 2 helplines
+- Frontend /rights, open "arrest", toggle Hindi, tap a helpline (tel: link), tap a related provision (opens Ask)
+- Every "related" item must exist in the database: pytest checks this, so no fake citations
