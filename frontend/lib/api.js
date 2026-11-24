@@ -13,3 +13,5 @@ export const fetchSchedules = () => get("/api/schedules");
 export const fetchSections = (act = "", q = "") =>
   get(`/api/sections?act=${encodeURIComponent(act)}&q=${encodeURIComponent(q)}`);
 export const fetchCases = (q = "") => get(`/api/cases?q=${encodeURIComponent(q)}`);
+export const fetchRights = () => get("/api/rights");
+export const fetchRight = (slug) => get(`/api/rights/${encodeURIComponent(slug)}`);
