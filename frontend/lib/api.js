@@ -15,3 +15,5 @@ export const fetchSections = (act = "", q = "") =>
 export const fetchCases = (q = "") => get(`/api/cases?q=${encodeURIComponent(q)}`);
 export const fetchRights = () => get("/api/rights");
 export const fetchRight = (slug) => get(`/api/rights/${encodeURIComponent(slug)}`);
+export const fetchConvert = (law, section) =>
+  get(`/api/convert?law=${encodeURIComponent(law)}&section=${encodeURIComponent(section)}`);
