@@ -79,3 +79,9 @@ a:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline
 .tabs a[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 @media (prefers-color-scheme: dark) { .tabs a[aria-current="true"] { color: #0e1223; } }
 .badge { margin-left: 10px; padding: 2px 8px; font-size: .75rem; font-weight: 500; border: 1px solid var(--saffron); color: var(--saffron); border-radius: 999px; }
+
+.steps { padding-left: 1.2rem; max-width: 62ch; }
+.steps li { margin-bottom: 10px; }
+.helplines { list-style: none; padding: 0; }
+.helplines li { padding: 4px 0; }
+.helplines a { color: var(--accent); }
