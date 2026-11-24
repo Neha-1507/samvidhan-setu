@@ -1,0 +1,36 @@
+{
+  "slug": "fir",
+  "title_en": "How to file an FIR",
+  "title_hi": "FIR कैसे दर्ज कराएँ",
+  "intro_en": "An FIR is the first record of a crime. You do not need a lawyer to file one.",
+  "intro_hi": "FIR अपराध का पहला रिकॉर्ड होती है। इसे दर्ज कराने के लिए वकील की ज़रूरत नहीं।",
+  "steps": [
+    {
+      "en": "If you report a cognizable offence, police must register an FIR.",
+      "hi": "संज्ञेय अपराध की सूचना देने पर पुलिस को FIR दर्ज करनी होगी।"
+    },
+    {
+      "en": "You can report at any police station; it can be transferred to the right one later (Zero FIR).",
+      "hi": "आप किसी भी थाने में रिपोर्ट कर सकते हैं; बाद में उसे सही थाने भेजा जा सकता है (ज़ीरो FIR)।"
+    },
+    {
+      "en": "Read the FIR before signing and ask for a free copy.",
+      "hi": "हस्ताक्षर से पहले FIR पढ़ें और उसकी मुफ़्त प्रति माँगें।"
+    },
+    {
+      "en": "If police refuse, send your complaint in writing to the senior police officer or approach a magistrate.",
+      "hi": "यदि पुलिस मना करे तो लिखित शिकायत वरिष्ठ पुलिस अधिकारी को भेजें या मजिस्ट्रेट के पास जाएँ।"
+    }
+  ],
+  "related": [
+    "BNSS Section 173",
+    "Lalita Kumari v. Government of U.P. (2014)"
+  ],
+  "helplines": [
+    {
+      "name": "Police emergency",
+      "number": "112"
+    }
+  ],
+  "verified": false
+}

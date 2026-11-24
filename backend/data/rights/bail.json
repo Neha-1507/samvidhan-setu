@@ -1,0 +1,43 @@
+{
+  "slug": "bail",
+  "title_en": "Understanding bail",
+  "title_hi": "जमानत को समझें",
+  "intro_en": "Bail means release while the case is going on. Which rule applies depends on the offence.",
+  "intro_hi": "जमानत का मतलब है मुकदमा चलते समय रिहाई। कौन सा नियम लागू होगा, यह अपराध पर निर्भर है।",
+  "steps": [
+    {
+      "en": "In a bailable offence, bail is your right.",
+      "hi": "जमानतीय अपराध में जमानत आपका अधिकार है।"
+    },
+    {
+      "en": "In a non-bailable offence, the court decides whether to grant bail.",
+      "hi": "अजमानतीय अपराध में जमानत देने का फैसला अदालत करती है।"
+    },
+    {
+      "en": "If you fear arrest, you can ask for anticipatory bail from the High Court or Sessions Court.",
+      "hi": "गिरफ्तारी का डर हो तो आप उच्च न्यायालय या सत्र न्यायालय से अग्रिम जमानत माँग सकते हैं।"
+    },
+    {
+      "en": "An undertrial who has served a fixed part of the maximum sentence may be eligible for release.",
+      "hi": "विचाराधीन कैदी, जिसने अधिकतम सजा का निर्धारित हिस्सा बिता लिया हो, रिहाई का पात्र हो सकता है।"
+    },
+    {
+      "en": "If the investigation is not completed in time, you may get default bail.",
+      "hi": "जाँच समय पर पूरी न होने पर आपको डिफ़ॉल्ट जमानत मिल सकती है।"
+    }
+  ],
+  "related": [
+    "BNSS Section 478",
+    "BNSS Section 479",
+    "BNSS Section 480",
+    "BNSS Section 482",
+    "BNSS Section 187"
+  ],
+  "helplines": [
+    {
+      "name": "Free legal aid (NALSA)",
+      "number": "15100"
+    }
+  ],
+  "verified": false
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cyber-fraud",
+  "title_en": "If you are a victim of online fraud",
+  "title_hi": "ऑनलाइन धोखाधड़ी होने पर क्या करें",
+  "intro_en": "Speed matters. The sooner you report, the better the chance of stopping the transfer.",
+  "intro_hi": "गति मायने रखती है। जितनी जल्दी रिपोर्ट करेंगे, पैसे का ट्रांसफर रोकने की संभावना उतनी बेहतर होगी।",
+  "steps": [
+    {
+      "en": "Call the cybercrime helpline 1930 immediately.",
+      "hi": "तुरंत साइबर अपराध हेल्पलाइन 1930 पर कॉल करें।"
+    },
+    {
+      "en": "File a complaint on the national cybercrime portal, cybercrime.gov.in.",
+      "hi": "राष्ट्रीय साइबर अपराध पोर्टल cybercrime.gov.in पर शिकायत दर्ज करें।"
+    },
+    {
+      "en": "Inform your bank and ask them to block the transaction or card.",
+      "hi": "अपने बैंक को सूचित करें और लेन-देन या कार्ड ब्लॉक करने को कहें।"
+    },
+    {
+      "en": "Save screenshots, messages, transaction IDs and phone numbers as evidence.",
+      "hi": "सबूत के रूप में स्क्रीनशॉट, संदेश, ट्रांज़ैक्शन आईडी और फ़ोन नंबर सुरक्षित रखें।"
+    }
+  ],
+  "related": [
+    "BNS Section 318",
+    "BSA Section 63"
+  ],
+  "helplines": [
+    {
+      "name": "Cybercrime helpline",
+      "number": "1930"
+    },
+    {
+      "name": "Police emergency",
+      "number": "112"
+    }
+  ],
+  "verified": false
+}

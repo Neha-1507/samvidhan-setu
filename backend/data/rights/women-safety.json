@@ -1,0 +1,43 @@
+{
+  "slug": "women-safety",
+  "title_en": "Rights and help for women",
+  "title_hi": "महिलाओं के अधिकार और सहायता",
+  "intro_en": "The law has special protections for women. Help is available at any hour.",
+  "intro_hi": "कानून में महिलाओं के लिए विशेष सुरक्षा है। सहायता किसी भी समय उपलब्ध है।",
+  "steps": [
+    {
+      "en": "Call 112 for police help or 181 for the women's helpline.",
+      "hi": "पुलिस सहायता के लिए 112 या महिला हेल्पलाइन के लिए 181 पर कॉल करें।"
+    },
+    {
+      "en": "You can file a Zero FIR at any police station.",
+      "hi": "आप किसी भी थाने में ज़ीरो FIR दर्ज करा सकती हैं।"
+    },
+    {
+      "en": "A woman generally cannot be arrested between sunset and sunrise without a magistrate's prior permission.",
+      "hi": "आम तौर पर सूर्यास्त और सूर्योदय के बीच मजिस्ट्रेट की पूर्व अनुमति के बिना महिला को गिरफ्तार नहीं किया जा सकता।"
+    },
+    {
+      "en": "Cruelty by a husband or his relatives is a punishable offence.",
+      "hi": "पति या उसके रिश्तेदारों द्वारा क्रूरता दंडनीय अपराध है।"
+    }
+  ],
+  "related": [
+    "Article 14",
+    "Article 21",
+    "BNS Section 85",
+    "BNS Section 64",
+    "BNSS Section 173"
+  ],
+  "helplines": [
+    {
+      "name": "Women helpline",
+      "number": "181"
+    },
+    {
+      "name": "Police emergency",
+      "number": "112"
+    }
+  ],
+  "verified": false
+}

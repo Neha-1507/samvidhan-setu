@@ -1,0 +1,52 @@
+{
+  "slug": "arrest",
+  "title_en": "Your rights if you are arrested",
+  "title_hi": "गिरफ्तार होने पर आपके अधिकार",
+  "intro_en": "Arrest takes away your liberty, so the law gives you protections from the first minute.",
+  "intro_hi": "गिरफ्तारी से आपकी स्वतंत्रता छिनती है, इसलिए कानून पहले मिनट से आपको सुरक्षा देता है।",
+  "steps": [
+    {
+      "en": "You must be told the reason (grounds) for your arrest.",
+      "hi": "आपको गिरफ्तारी का कारण बताया जाना चाहिए।"
+    },
+    {
+      "en": "You can consult a lawyer of your choice.",
+      "hi": "आप अपनी पसंद के वकील से सलाह ले सकते हैं।"
+    },
+    {
+      "en": "You must be produced before a magistrate within 24 hours, not counting travel time.",
+      "hi": "यात्रा का समय छोड़कर 24 घंटे के भीतर आपको मजिस्ट्रेट के सामने पेश किया जाना चाहिए।"
+    },
+    {
+      "en": "A relative or friend should be informed about your arrest.",
+      "hi": "आपके किसी रिश्तेदार या मित्र को गिरफ्तारी की सूचना दी जानी चाहिए।"
+    },
+    {
+      "en": "If the offence is bailable, you are entitled to bail and police must tell you so.",
+      "hi": "जमानतीय अपराध में आप जमानत के हकदार हैं और पुलिस को यह बताना चाहिए।"
+    },
+    {
+      "en": "Do not sign any paper you have not read.",
+      "hi": "जो कागज़ आपने पढ़ा नहीं है, उस पर हस्ताक्षर न करें।"
+    }
+  ],
+  "related": [
+    "Article 22",
+    "BNSS Section 35",
+    "BNSS Section 47",
+    "BNSS Section 58",
+    "Joginder Kumar v. State of U.P. (1994)",
+    "D.K. Basu v. State of West Bengal (1997)"
+  ],
+  "helplines": [
+    {
+      "name": "Police emergency",
+      "number": "112"
+    },
+    {
+      "name": "Free legal aid (NALSA)",
+      "number": "15100"
+    }
+  ],
+  "verified": false
+}

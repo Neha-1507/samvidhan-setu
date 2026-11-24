@@ -1,0 +1,36 @@
+{
+  "slug": "legal-aid",
+  "title_en": "Free legal aid",
+  "title_hi": "मुफ़्त कानूनी सहायता",
+  "intro_en": "If you cannot afford a lawyer, the State can provide one at no cost to you.",
+  "intro_hi": "यदि आप वकील का खर्च नहीं उठा सकते, तो राज्य आपको निःशुल्क वकील उपलब्ध करा सकता है।",
+  "steps": [
+    {
+      "en": "Women, children, persons in custody, members of SC/ST, persons with disabilities and people below the income limit can get free legal aid.",
+      "hi": "महिलाएँ, बच्चे, हिरासत में व्यक्ति, SC/ST के सदस्य, दिव्यांग और आय-सीमा से नीचे के लोग मुफ़्त कानूनी सहायता पा सकते हैं।"
+    },
+    {
+      "en": "Visit the District Legal Services Authority (DLSA) in your district court complex.",
+      "hi": "अपने जिले के न्यायालय परिसर में जिला विधिक सेवा प्राधिकरण (DLSA) जाएँ।"
+    },
+    {
+      "en": "You can also call the NALSA helpline 15100.",
+      "hi": "आप NALSA हेल्पलाइन 15100 पर भी कॉल कर सकते हैं।"
+    },
+    {
+      "en": "An arrested person can ask the magistrate for a legal aid lawyer.",
+      "hi": "गिरफ्तार व्यक्ति मजिस्ट्रेट से कानूनी सहायता वाले वकील की माँग कर सकता है।"
+    }
+  ],
+  "related": [
+    "Article 22",
+    "Article 21"
+  ],
+  "helplines": [
+    {
+      "name": "Free legal aid (NALSA)",
+      "number": "15100"
+    }
+  ],
+  "verified": false
+}
