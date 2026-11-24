@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 45 tests pass (nothing fails).
+Expected: 56 tests pass (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -65,3 +65,14 @@ Restore: cp /tmp/acts.json data/bare_acts.json
 - Open /nonexistent -> friendly 404 page
 - Phone width (about 380px): nav wraps, no sideways scrolling
 - Browser tab shows the new icon
+
+## Document reader and converter (added in part 6)
+- /api/convert?law=IPC&section=302          -> BNS Section 103
+- /api/convert?law=CrPC&section=41A         -> BNSS Section 35
+- /api/convert?law=IPC&section=999          -> matches: [] (not guessed)
+- Frontend /convert: try IPC 420, CrPC 438, Evidence Act 65B; unknown section shows "not in our database"
+- Frontend /analyze: click "Use sample text" then "Read document"
+    expect: IPC 420 -> BNS 318, CrPC 438 -> BNSS 482, Articles 21 and 22, IPC 406 and 34 in "not in our database",
+            date 12/08/2024, FIR 45/2024, and a yellow warning about 1 July 2024
+- Paste "5 IPC cases in 2024" -> no sections found (no false alarms)
+- Text over 20000 characters is cut by the box; under 10 characters shows a message
