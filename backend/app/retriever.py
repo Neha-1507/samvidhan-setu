@@ -1,4 +1,4 @@
-"""Keyword retriever (BM25) over the articles database.
+"""Keyword retriever (BM25) over the whole corpus (Constitution + Bare Acts).
 
 This is the "R" of RAG. It is deliberately dependency-free so it runs anywhere.
 Later it can be swapped for embeddings + Qdrant without changing callers:
@@ -8,7 +8,7 @@ import math
 import re
 from collections import Counter
 
-from .articles import load_articles
+from .corpus import load_corpus
 
 # Tiny Hinglish -> English bridge. Temporary: replaced by embeddings in a later step.
 HINGLISH = {
@@ -19,6 +19,16 @@ HINGLISH = {
     "jeevan": "life", "jivan": "life",
     "adhikar": "rights", "vakil": "lawyer",
     "nyayalay": "court", "bacche": "children", "bachche": "children",
+    "zamanat": "bail", "jamanat": "bail", "chori": "theft", "hatya": "murder",
+    "dhokha": "cheating", "dhokhadhadi": "cheating", "dhamki": "intimidation",
+    "sabut": "evidence", "darj": "register", "maarpit": "assault",
+}
+
+STOPWORDS = {
+    "a", "an", "the", "and", "or", "of", "to", "in", "is", "are", "for", "can", "on", "be", "it",
+    "what", "when", "how", "do", "i", "my", "me", "if", "ke", "ki", "ka", "ko", "me", "mein",
+    "se", "hai", "kab", "kaise", "kya", "baad", "ho", "hota", "milti", "का", "के", "की", "में",
+    "से", "है", "को", "और",
 }
 
 TOKEN_RE = re.compile(r"[^\s.,;:!?\"'()\[\]{}\-/|]+")
@@ -26,18 +36,21 @@ TOKEN_RE = re.compile(r"[^\s.,;:!?\"'()\[\]{}\-/|]+")
 
 def tokenize(text: str) -> list[str]:
     tokens = [t.lower() for t in TOKEN_RE.findall(text)]
-    return [HINGLISH.get(t, t) for t in tokens]
+    return [HINGLISH.get(t, t) for t in tokens if t not in STOPWORDS]
 
 
 def _doc_text(a: dict) -> str:
     return " ".join(
-        [a["number"], a["title_en"], a["title_hi"], a["summary_en"], a["summary_hi"], " ".join(a["tags"])]
+        [
+            a["number"], a.get("ref", ""), a["title_en"], a["title_hi"], a["summary_en"], a["summary_hi"],
+            " ".join(a["tags"]), a.get("replaces", ""), a.get("act", ""),
+        ]
     )
 
 
 class BM25Retriever:
     def __init__(self, articles: list[dict] | None = None, k1: float = 1.5, b: float = 0.75):
-        self.articles = articles if articles is not None else load_articles()
+        self.articles = articles if articles is not None else load_corpus()
         self.k1, self.b = k1, b
         self.docs = [tokenize(_doc_text(a)) for a in self.articles]
         self.avgdl = (sum(len(d) for d in self.docs) / len(self.docs)) if self.docs else 0.0

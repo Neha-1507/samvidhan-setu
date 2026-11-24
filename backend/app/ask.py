@@ -1,14 +1,19 @@
 from fastapi import APIRouter, Query
 
+from .corpus import load_corpus
 from .retriever import BM25Retriever
 
 router = APIRouter(prefix="/api", tags=["ask"])
-_retriever = BM25Retriever()
+_retriever = BM25Retriever(load_corpus())
 
 DISCLAIMER = (
     "Legal information only, not legal advice. Check the official source and consult a "
     "qualified advocate for your case."
 )
+KEYS = [
+    "kind", "ref", "ref_hi", "number", "title_en", "title_hi", "summary_en", "summary_hi",
+    "replaces", "citation", "verified", "score", "source",
+]
 
 
 @router.get("/ask")
@@ -32,18 +37,6 @@ def ask(q: str = Query(min_length=2, max_length=500), k: int = Query(3, ge=1, le
         "query": q,
         "mode": "retrieval_only",
         "found": True,
-        "results": [
-            {
-                "number": r["number"],
-                "part": r["part"],
-                "title_en": r["title_en"],
-                "title_hi": r["title_hi"],
-                "summary_en": r["summary_en"],
-                "summary_hi": r["summary_hi"],
-                "score": r["score"],
-                "source": r["source"],
-            }
-            for r in results
-        ],
+        "results": [{key: r.get(key) for key in KEYS} for r in results],
         "disclaimer": DISCLAIMER,
     }
