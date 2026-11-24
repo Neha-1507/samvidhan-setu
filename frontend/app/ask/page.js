@@ -25,7 +25,7 @@ export default async function AskPage({ searchParams }) {
       <LangToggle path="/ask" lang={lang} q={q} />
       <form method="get" className="search">
         <input type="hidden" name="lang" value={lang} />
-        <input name="q" defaultValue={q} placeholder="police arrest ke baad kya rights hain?" aria-label="Question" />
+        <input name="q" defaultValue={q} placeholder="anticipatory bail, police arrest ke baad vakil, chori..." aria-label="Question" />
         <button className="btn" type="submit">{lang === "hi" ? "पूछें" : "Ask"}</button>
       </form>
 
@@ -34,10 +34,15 @@ export default async function AskPage({ searchParams }) {
       {data?.found && (
         <ul className="list">
           {data.results.map((r) => (
-            <li key={r.number}>
-              <div className="num">{lang === "hi" ? "अनुच्छेद" : "Article"} {r.number}</div>
+            <li key={r.ref}>
+              <div className="num">
+                {lang === "hi" ? r.ref_hi : r.ref}
+                {!r.verified && <span className="badge">{lang === "hi" ? "सत्यापन बाकी" : "Not yet verified"}</span>}
+              </div>
               <h2>{pick(r, "title", lang)}</h2>
               <p>{pick(r, "summary", lang)}</p>
+              {r.citation && <p className="note">{r.citation}</p>}
+              {r.replaces && <p className="note">{lang === "hi" ? "पुराना कानून" : "Earlier law"}: {r.replaces}</p>}
               <a href={r.source} target="_blank" rel="noreferrer">{lang === "hi" ? "आधिकारिक स्रोत" : "Official source"}</a>
             </li>
           ))}

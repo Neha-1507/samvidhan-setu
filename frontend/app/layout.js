@@ -14,6 +14,8 @@ export default function RootLayout({ children }) {
           <Link href="/" className="brand">संविधान सेतु</Link>
           <nav>
             <Link href="/articles">Constitution</Link>
+            <Link href="/laws">Laws</Link>
+            <Link href="/cases">Cases</Link>
             <Link href="/schedules">Schedules</Link>
             <Link href="/preamble">Preamble</Link>
             <Link href="/ask">Ask</Link>

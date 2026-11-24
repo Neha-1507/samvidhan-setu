@@ -73,3 +73,9 @@ a:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline
 .preamble p { margin: 0 0 10px; }
 
 .bar nav { display: flex; gap: 20px; }
+
+.tabs { display: flex; gap: 8px; margin: 0 0 12px; flex-wrap: wrap; }
+.tabs a { padding: 6px 16px; border: 1px solid var(--line); border-radius: 6px; text-decoration: none; }
+.tabs a[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+@media (prefers-color-scheme: dark) { .tabs a[aria-current="true"] { color: #0e1223; } }
+.badge { margin-left: 10px; padding: 2px 8px; font-size: .75rem; font-weight: 500; border: 1px solid var(--saffron); color: var(--saffron); border-radius: 999px; }
