@@ -8,6 +8,8 @@ const FEATURES = [
   { href: "/articles", en: ["Constitution", "Articles in plain language, with Hindi and English."], hi: ["संविधान", "अनुच्छेद सरल भाषा में, हिंदी और English के साथ।"] },
   { href: "/laws", en: ["New criminal laws", "BNS, BNSS and BSA, with the old IPC/CrPC section."], hi: ["नए आपराधिक कानून", "BNS, BNSS और BSA, पुरानी IPC/CrPC धारा के साथ।"] },
   { href: "/cases", en: ["Landmark cases", "What the Supreme Court decided, and why it matters."], hi: ["महत्वपूर्ण फैसले", "सर्वोच्च न्यायालय ने क्या तय किया और क्यों मायने रखता है।"] },
+  { href: "/convert", en: ["Old law to new law", "IPC 302? See its new BNS section in one step."], hi: ["पुराना कानून से नया कानून", "IPC 302? उसकी नई BNS धारा एक ही कदम में देखें।"] },
+  { href: "/analyze", en: ["Document reader", "Paste an FIR or notice and see which laws it cites."], hi: ["दस्तावेज़ पढ़ें", "FIR या नोटिस चिपकाएँ और देखें उसमें कौन से कानून लिखे हैं।"] },
   { href: "/quiz", en: ["Quiz", "Test what you learned in five quick questions."], hi: ["क्विज़", "पाँच छोटे सवालों में परखें कि आपने क्या सीखा।"] },
 ];
 
