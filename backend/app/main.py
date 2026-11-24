@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .articles import get_article, search_articles
 from .ask import router as ask_router
 from .cases import router as cases_router
+from .rights import router as rights_router
 from .schedules import router as schedules_router
 from .sections import router as sections_router
 
@@ -20,6 +21,7 @@ app.include_router(schedules_router)
 app.include_router(ask_router)
 app.include_router(sections_router)
 app.include_router(cases_router)
+app.include_router(rights_router)
 
 
 @app.get("/health")

@@ -6,6 +6,7 @@ from .articles import load_articles
 
 ACTS_FILE = Path(__file__).resolve().parent.parent / "data" / "bare_acts.json"
 CASES_FILE = Path(__file__).resolve().parent.parent / "data" / "cases.json"
+RIGHTS_DIR = Path(__file__).resolve().parent.parent / "data" / "rights"
 
 
 def load_acts() -> list[dict]:
@@ -51,6 +52,15 @@ def search_cases(q: str = "") -> list[dict]:
         if not q or q in hay:
             out.append(c)
     return out
+
+
+def load_rights() -> list[dict]:
+    return [json.loads(f.read_text(encoding="utf-8")) for f in sorted(RIGHTS_DIR.glob("*.json"))]
+
+
+def get_right(slug: str) -> dict | None:
+    slug = slug.strip().lower()
+    return next((r for r in load_rights() if r["slug"] == slug), None)
 
 
 def load_corpus() -> list[dict]:
