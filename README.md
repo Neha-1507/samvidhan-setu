@@ -32,14 +32,20 @@ cd backend && python scripts/import_articles.py data/new_articles_template.csv
 ```
 Verify every summary against the official text before committing.
 
+## Add Bare Act sections (BNS, BNSS, BSA)
+Add rows to `backend/data/bare_acts_seed.csv`, then:
+```bash
+cd backend && python scripts/import_acts.py data/bare_acts_seed.csv
+```
+New rows start as `verified: false` and the website shows a "Not yet verified" badge. After you compare a record with the official text (India Code):
+```bash
+python scripts/mark_verified.py acts BNSS-35 BNS-103
+python scripts/mark_verified.py articles 21 22
+```
+
 ## Roadmap
 - [x] Phase 1: Constitution data, search, Schedules, Preamble, Hindi/English
-- [~] Phase 2: Legal AI (retrieval done; Bare Acts, embeddings and LLM answers next)
-- [ ] Phase 3: Case law intelligence
+- [~] Phase 2: Legal AI (retrieval + Bare Acts done; embeddings and LLM answers next)
+- [~] Phase 3: Case law intelligence (8 landmark cases searchable; judgment search and comparison next)
 - [ ] Phase 4: Document intelligence
 - [ ] Phase 5: Voice, court tracker, mobile
-
-## Live Deployment
-- Backend (Render): https://samvidhan-setu.onrender.com
-
-- Frontend (Vercel): Next.js App

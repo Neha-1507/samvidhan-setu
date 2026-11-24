@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 16 tests pass.
+Expected: 35 tests pass (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -13,12 +13,19 @@ Expected: 16 tests pass.
 - http://localhost:8000/api/ask?q=giraftari         -> Article 22, found=true
 - http://localhost:8000/api/ask?q=qwertyzzz         -> found=false, no results
 
+- http://localhost:8000/api/sections?act=BNSS       -> BNSS sections only
+- http://localhost:8000/api/sections?q=IPC%20302    -> BNS 103
+- http://localhost:8000/api/sections/BNSS/482       -> anticipatory bail, replaces CrPC 438
+- http://localhost:8000/api/ask?q=anticipatory+bail -> BNSS Section 482 first
+- http://localhost:8000/api/ask?q=chori             -> BNS Section 303
+
 ## 3. Frontend manual (both servers running)
 - /               home loads, brand "संविधान सेतु"
 - /articles       list shows 6 articles; search "शिक्षा" -> 21A
 - /articles?lang=hi    Hindi titles and summaries
 - /articles/21    detail page, English/हिंदी toggle works, back link works
 - /articles/999   404 page
+- /laws           22 sections; tabs All/BNS/BNSS/BSA; search 'IPC 302' -> BNS 103; 'Not yet verified' badge shows
 - /schedules      12 schedules; toggle to Hindi
 - /preamble       Preamble in both languages
 - /ask?q=police+arrest+ke+baad+vakil   Article 22 with official source link and disclaimer
@@ -29,3 +36,16 @@ Expected: 16 tests pass.
 cd backend && cp data/articles.json /tmp/backup.json
 python scripts/import_articles.py data/new_articles_template.csv   -> added=1, total=7
 Restore: cp /tmp/backup.json data/articles.json
+
+## 5. Bare Acts scripts
+cd backend && cp data/bare_acts.json /tmp/acts.json
+python scripts/import_acts.py data/bare_acts_seed.csv     -> added=0 updated=22 total=22
+python scripts/mark_verified.py acts BNSS-35              -> Marked verified: ['BNSS-35']
+Restore: cp /tmp/acts.json data/bare_acts.json
+
+## Case law (added in part 3)
+- /api/cases                      -> 8 cases
+- /api/cases/DKBASU-1997          -> D.K. Basu, citation (1997) 1 SCC 416
+- /api/ask?q=custody+torture+guidelines   -> D.K. Basu first
+- Frontend /cases: search "privacy", toggle Hindi, "Not yet verified" badge shows
+- Verify a case after checking sci.gov.in:  python scripts/mark_verified.py cases DKBASU-1997
