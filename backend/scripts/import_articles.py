@@ -32,6 +32,7 @@ def read_rows(csv_path: Path) -> list[dict]:
             row = {k: v.strip() for k, v in row.items()}
             row["number"] = row["number"].upper()
             row["tags"] = [t.strip() for t in row.get("tags", "").split(";") if t.strip()]
+            row["verified"] = False
             rows.append(row)
     return rows
 
