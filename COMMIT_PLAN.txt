@@ -1,0 +1,19 @@
+# stage: case-compare
+# One file per commit, in this order.  Run: tools/commit_next.sh 3
+# Format: path|commit message
+
+backend/data/cases.json|data(cases): add legal issue, provisions and bench size to each case
+backend/tests/test_case_fields.py|test(cases): require issue field and check provisions exist
+backend/app/compare.py|feat(cases): add side-by-side case comparison logic
+backend/tests/test_compare.py|test(cases): cover comparison, bench note and error cases
+backend/app/cases.py|feat(cases): add /api/cases/compare endpoint
+docs/CASE_COMPARISON.md|docs: explain what case comparison does and does not do
+frontend/lib/api.js|feat(frontend): add fetchCompare
+frontend/app/compare/page.js|feat(frontend): add case comparison page
+frontend/app/cases/page.js|feat(frontend): add Compare link on each case
+frontend/app/globals.css|style(frontend): style comparison columns and form
+frontend/app/layout.js|feat(frontend): add Compare to navigation
+frontend/app/page.js|feat(frontend): add compare card on home
+README.md|docs: update roadmap for case comparison
+TESTING.md|docs: add case comparison checks to testing guide
+COMMIT_PLAN.txt|docs: add commit plan for the case comparison stage
