@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 56 tests pass (nothing fails).
+Expected: 79 tests pass (reportlab and cryptography are in requirements-dev) (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -76,3 +76,29 @@ Restore: cp /tmp/acts.json data/bare_acts.json
             date 12/08/2024, FIR 45/2024, and a yellow warning about 1 July 2024
 - Paste "5 IPC cases in 2024" -> no sections found (no false alarms)
 - Text over 20000 characters is cut by the box; under 10 characters shows a message
+
+## More sections + glossary (added in part 7)
+- /api/sections                         -> 53 sections
+- /api/convert?law=CrPC&section=482     -> BNSS Section 528 (inherent powers)
+- /api/convert?law=IPC&section=354D     -> BNS Section 78 (stalking)
+- /api/glossary?q=bail                  -> Bail, Bailable offence, Anticipatory bail...
+- Frontend /glossary: search "रिमांड", toggle Hindi, click a Related link (opens Ask)
+- /analyze with "Petition under Section 482 CrPC" -> BNSS 528, not BNSS 482
+
+## PDF upload (added in part 8)
+- pip install -r requirements-dev.txt  (adds pypdf, python-multipart, reportlab)
+- Frontend /analyze -> "Upload a PDF": choose a text-based PDF that mentions "Section 302 IPC"
+    expect: IPC 302 -> BNS 103, and "1 / 1 pages read"
+- Upload a .txt renamed to .pdf -> "does not look like a PDF" message
+- Upload a scanned PDF -> message asking you to paste the text instead
+- Upload a file over 5 MB -> rejected before upload
+- Stop backend -> clear error message
+
+## Case comparison (added in part 9)
+- /api/cases/compare?a=DKBASU-1997&b=JOGINDER-1994   -> shared provisions Article 21, Article 22; Joginder Kumar earlier
+- /api/cases/compare?a=PUTTASWAMY-2017&b=SHREYA-2015 -> bench note: 9 judges vs 2 judges
+- same id twice -> 422, unknown id -> 404
+- /api/cases/DKBASU-1997 still works (compare route is above it)
+- Frontend /compare: pick two cases, two columns appear, "How they relate" box and the caution
+- Frontend /cases: each case has a "Compare" link that pre-selects the first case
+- Phone width: the two columns stack
