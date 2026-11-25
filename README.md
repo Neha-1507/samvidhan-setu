@@ -46,8 +46,9 @@ python scripts/mark_verified.py articles 21 22
 ## Roadmap
 - [x] Phase 1: Constitution data, search, Schedules, Preamble, Hindi/English
 - [~] Phase 2: Legal AI (retrieval + Bare Acts done; embeddings and LLM answers next)
-- [~] Phase 3: Case law intelligence (8 landmark cases searchable; judgment search and comparison next)
+- [~] Phase 3: Case law intelligence (8 landmark cases searchable and comparable side by side; full judgment text next)
 - [x] Citizen rights guides: arrest, FIR, bail, legal aid, cyber fraud, women's safety
-- [x] Legal learning: auto-generated quiz (Constitution, new criminal laws, landmark cases)
-- [~] Phase 4: Document intelligence (paste-text reader and old-to-new law converter done; PDF upload and OCR next)
+- [x] Legal learning: auto-generated quiz and a 28-term legal glossary (Hindi and English)
+- [x] 53 Bare Act sections (BNS, BNSS, BSA) with old IPC/CrPC/Evidence Act numbers
+- [~] Phase 4: Document intelligence (paste-text and text-PDF reader, old-to-new law converter done; OCR for scanned PDFs next)
 - [ ] Phase 5: Voice, court tracker, mobile
