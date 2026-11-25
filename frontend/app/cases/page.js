@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { fetchCases } from "../../lib/api";
 import { getLang, pick } from "../../lib/lang";
 import LangToggle from "../../components/LangToggle";
@@ -36,6 +37,8 @@ export default async function CasesPage({ searchParams }) {
             <p>{pick(c, "summary", lang)}</p>
             <p className="note">{c.court} | {c.citation}</p>
             <a href={c.source} target="_blank" rel="noreferrer">{lang === "hi" ? "आधिकारिक स्रोत" : "Official source"}</a>
+            {" | "}
+            <Link href={`/compare?a=${c.id}&lang=${lang}`}>{lang === "hi" ? "तुलना करें" : "Compare"}</Link>
           </li>
         ))}
       </ul>
