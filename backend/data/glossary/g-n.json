@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "habeas-corpus",
+    "term_en": "Habeas corpus",
+    "term_hi": "बंदी प्रत्यक्षीकरण",
+    "meaning_en": "A writ asking that a detained person be brought before the court so it can check whether the detention is legal.",
+    "meaning_hi": "ऐसी रिट जिसमें हिरासत में लिए गए व्यक्ति को अदालत के सामने पेश करने को कहा जाता है, ताकि हिरासत वैध है या नहीं यह जाँचा जा सके।",
+    "related": [
+      "Article 32"
+    ]
+  },
+  {
+    "slug": "injunction",
+    "term_en": "Injunction",
+    "term_hi": "निषेधाज्ञा",
+    "meaning_en": "A court order telling a person to do something or to stop doing something.",
+    "meaning_hi": "अदालत का आदेश जो किसी व्यक्ति को कुछ करने या कुछ करने से रुकने को कहता है।",
+    "related": []
+  },
+  {
+    "slug": "jurisdiction",
+    "term_en": "Jurisdiction",
+    "term_hi": "अधिकार क्षेत्र",
+    "meaning_en": "The power of a court to hear a case, based on the place, the subject or the value involved.",
+    "meaning_hi": "किसी अदालत की मामला सुनने की शक्ति, जो स्थान, विषय या मूल्य पर निर्भर करती है।",
+    "related": []
+  },
+  {
+    "slug": "magistrate",
+    "term_en": "Magistrate",
+    "term_hi": "मजिस्ट्रेट",
+    "meaning_en": "A judicial officer who handles initial stages of criminal cases, such as remand, bail and examining complaints.",
+    "meaning_hi": "न्यायिक अधिकारी जो आपराधिक मामलों के शुरुआती चरण देखता है, जैसे रिमांड, जमानत और शिकायतों की जाँच।",
+    "related": [
+      "BNSS Section 58"
+    ]
+  },
+  {
+    "slug": "mandamus",
+    "term_en": "Mandamus",
+    "term_hi": "परमादेश",
+    "meaning_en": "A writ ordering a public authority to perform a legal duty it has failed to perform.",
+    "meaning_hi": "ऐसी रिट जो किसी सरकारी प्राधिकरण को वह कानूनी कर्तव्य निभाने का आदेश देती है जो उसने नहीं निभाया।",
+    "related": [
+      "Article 32"
+    ]
+  },
+  {
+    "slug": "non-bailable-offence",
+    "term_en": "Non-bailable offence",
+    "term_hi": "अजमानतीय अपराध",
+    "meaning_en": "A more serious offence in which bail is not a right and the court decides whether to grant it.",
+    "meaning_hi": "अधिक गंभीर अपराध जिसमें जमानत अधिकार नहीं होती और अदालत तय करती है कि दी जाए या नहीं।",
+    "related": [
+      "BNSS Section 480"
+    ]
+  },
+  {
+    "slug": "non-cognizable-offence",
+    "term_en": "Non-cognizable offence",
+    "term_hi": "असंज्ञेय अपराध",
+    "meaning_en": "A less serious offence in which police generally need a magistrate's order to investigate and cannot ordinarily arrest without a warrant.",
+    "meaning_hi": "कम गंभीर अपराध जिसमें पुलिस को आम तौर पर जाँच के लिए मजिस्ट्रेट के आदेश की ज़रूरत होती है और वह सामान्यतः बिना वारंट गिरफ्तार नहीं कर सकती।",
+    "related": []
+  }
+]

@@ -37,6 +37,7 @@ function CaseColumn({ c, lang, t }) {
 export default async function ComparePage({ searchParams }) {
   const lang = getLang(searchParams);
   const t = L[lang];
+  const hi = lang === "hi";
   const a = searchParams?.a ?? "";
   const b = searchParams?.b ?? "";
   let cases = [];
@@ -93,10 +94,10 @@ export default async function ComparePage({ searchParams }) {
               <li>{t.themes}: {result.shared_tags.length ? result.shared_tags.join(", ") : t.none}</li>
               {result.only_a_tags.length > 0 && <li>{t.only} {result.a.name}: {result.only_a_tags.join(", ")}</li>}
               {result.only_b_tags.length > 0 && <li>{t.only} {result.b.name}: {result.only_b_tags.join(", ")}</li>}
-              {result.bench_note && <li>{result.bench_note}</li>}
-              <li>{result.binding_note}</li>
+              {result.bench_note && <li>{hi ? result.bench_note_hi : result.bench_note}</li>}
+              <li>{hi ? result.binding_note_hi : result.binding_note}</li>
             </ul>
-            <p className="warn">{result.caution}</p>
+            <p className="warn">{hi ? result.caution_hi : result.caution}</p>
           </section>
         </>
       )}

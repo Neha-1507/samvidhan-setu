@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "petitioner",
+    "term_en": "Petitioner",
+    "term_hi": "याचिकाकर्ता",
+    "meaning_en": "The person who files a petition in court asking for relief.",
+    "meaning_hi": "वह व्यक्ति जो राहत माँगते हुए अदालत में याचिका दायर करता है।",
+    "related": []
+  },
+  {
+    "slug": "pil",
+    "term_en": "PIL",
+    "term_hi": "जनहित याचिका (PIL)",
+    "meaning_en": "Public Interest Litigation: a case brought in the interest of the public or a group, which can be filed by someone who is not directly affected.",
+    "meaning_hi": "जनहित याचिका: जनता या किसी समूह के हित में लाया गया मामला, जिसे सीधे प्रभावित न होने वाला व्यक्ति भी दायर कर सकता है।",
+    "related": [
+      "Article 32"
+    ]
+  },
+  {
+    "slug": "remand",
+    "term_en": "Remand",
+    "term_hi": "रिमांड",
+    "meaning_en": "A court order sending an accused to police custody or judicial custody for a period.",
+    "meaning_hi": "अदालत का आदेश जिससे आरोपी को कुछ अवधि के लिए पुलिस हिरासत या न्यायिक हिरासत में भेजा जाता है।",
+    "related": [
+      "BNSS Section 187"
+    ]
+  },
+  {
+    "slug": "respondent",
+    "term_en": "Respondent",
+    "term_hi": "प्रतिवादी",
+    "meaning_en": "The person against whom a petition or appeal is filed, who must answer it.",
+    "meaning_hi": "वह व्यक्ति जिसके विरुद्ध याचिका या अपील दायर की गई है और जिसे उसका जवाब देना होता है।",
+    "related": []
+  },
+  {
+    "slug": "summons",
+    "term_en": "Summons",
+    "term_hi": "समन",
+    "meaning_en": "A court order requiring a person to appear in court or to produce a document.",
+    "meaning_hi": "अदालत का आदेश जो किसी व्यक्ति को अदालत में उपस्थित होने या दस्तावेज़ प्रस्तुत करने को कहता है।",
+    "related": [
+      "BNSS Section 94"
+    ]
+  },
+  {
+    "slug": "undertrial",
+    "term_en": "Undertrial",
+    "term_hi": "विचाराधीन कैदी",
+    "meaning_en": "A person in jail while the trial is still going on, who has not yet been convicted.",
+    "meaning_hi": "वह व्यक्ति जो मुकदमा चलने के दौरान जेल में है और अभी दोषी नहीं ठहराया गया है।",
+    "related": [
+      "BNSS Section 479"
+    ]
+  },
+  {
+    "slug": "warrant",
+    "term_en": "Warrant",
+    "term_hi": "वारंट",
+    "meaning_en": "A written order from a court or magistrate that authorises police to arrest a person or search a place.",
+    "meaning_hi": "अदालत या मजिस्ट्रेट का लिखित आदेश जो पुलिस को किसी व्यक्ति को गिरफ्तार करने या किसी स्थान की तलाशी लेने का अधिकार देता है।",
+    "related": [
+      "BNSS Section 35"
+    ]
+  },
+  {
+    "slug": "writ",
+    "term_en": "Writ",
+    "term_hi": "रिट",
+    "meaning_en": "A formal court order. The Supreme Court and High Courts can issue writs to protect fundamental rights, such as habeas corpus and mandamus.",
+    "meaning_hi": "अदालत का औपचारिक आदेश। सर्वोच्च न्यायालय और उच्च न्यायालय मौलिक अधिकारों की रक्षा के लिए रिट जारी कर सकते हैं, जैसे बंदी प्रत्यक्षीकरण और परमादेश।",
+    "related": [
+      "Article 32"
+    ]
+  },
+  {
+    "slug": "zero-fir",
+    "term_en": "Zero FIR",
+    "term_hi": "ज़ीरो FIR",
+    "meaning_en": "An FIR registered at any police station regardless of where the offence happened, later transferred to the police station with jurisdiction.",
+    "meaning_hi": "अपराध कहीं भी हुआ हो, किसी भी थाने में दर्ज की गई FIR, जो बाद में अधिकार क्षेत्र वाले थाने को भेज दी जाती है।",
+    "related": [
+      "BNSS Section 173"
+    ]
+  }
+]

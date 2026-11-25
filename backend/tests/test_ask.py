@@ -35,3 +35,9 @@ def test_ask_returns_case_law_with_citation():
     data = client.get("/api/ask", params={"q": "custody torture guidelines"}).json()
     top = data["results"][0]
     assert top["kind"] == "case" and top["citation"] == "(1997) 1 SCC 416"
+
+
+def test_ask_results_carry_the_act_name_for_library_links():
+    data = client.get("/api/ask", params={"q": "anticipatory bail"}).json()
+    top = data["results"][0]
+    assert top["kind"] == "act" and top["act"] == "BNSS"

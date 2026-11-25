@@ -1,12 +1,21 @@
+import Link from "next/link";
 import { getLang, pick } from "../../lib/lang";
 import LangToggle from "../../components/LangToggle";
+import SaveButton from "../../components/SaveButton";
+import { askItem } from "../../lib/library.mjs";
 
 export const metadata = { title: "Ask | Samvidhan Setu" };
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API = process.env.API_INTERNAL_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 async function ask(q) {
   const res = await fetch(`${API}/api/ask?q=${encodeURIComponent(q)}`, { cache: "no-store" });
   if (!res.ok) throw new Error("ask failed");
+  return res.json();
+}
+
+async function getExamples() {
+  const res = await fetch(`${API}/api/ask/examples`, { cache: "no-store" });
+  if (!res.ok) return [];
   return res.json();
 }
 
@@ -18,6 +27,10 @@ export default async function AskPage({ searchParams }) {
   if (q.length >= 2) {
     try { data = await ask(q); } catch { failed = true; }
   }
+  let examples = [];
+  if (q.length < 2) {
+    try { examples = await getExamples(); } catch { /* the page still works without examples */ }
+  }
 
   return (
     <>
@@ -28,6 +41,21 @@ export default async function AskPage({ searchParams }) {
         <input name="q" defaultValue={q} placeholder="anticipatory bail, police arrest ke baad vakil, chori..." aria-label="Question" />
         <button className="btn" type="submit">{lang === "hi" ? "पूछें" : "Ask"}</button>
       </form>
+
+      {examples.length > 0 && (
+        <section>
+          <h2>{lang === "hi" ? "ये पूछकर देखें" : "Try asking"}</h2>
+          <ul className="chip-list">
+            {examples.map((e) => (
+              <li key={e.q}>
+                <Link className="chip" href={`/ask?q=${encodeURIComponent(e.q)}&lang=${lang}`}>
+                  {lang === "hi" ? e.label_hi : e.label_en}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {failed && <p className="note">Backend is not running.</p>}
       {data && !data.found && <p className="note">{data.message}</p>}
@@ -44,6 +72,7 @@ export default async function AskPage({ searchParams }) {
               {r.citation && <p className="note">{r.citation}</p>}
               {r.replaces && <p className="note">{lang === "hi" ? "पुराना कानून" : "Earlier law"}: {r.replaces}</p>}
               <a href={r.source} target="_blank" rel="noreferrer">{lang === "hi" ? "आधिकारिक स्रोत" : "Official source"}</a>
+              <SaveButton item={askItem(r)} lang={lang} />
             </li>
           ))}
         </ul>

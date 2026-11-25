@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "affidavit",
+    "term_en": "Affidavit",
+    "term_hi": "शपथ पत्र",
+    "meaning_en": "A written statement that a person swears or affirms to be true, used as proof in court and in many official processes.",
+    "meaning_hi": "लिखित कथन जिसे व्यक्ति सत्य होने की शपथ या प्रतिज्ञान के साथ देता है; अदालत और कई सरकारी प्रक्रियाओं में सबूत के रूप में काम आता है।",
+    "related": []
+  },
+  {
+    "slug": "anticipatory-bail",
+    "term_en": "Anticipatory bail",
+    "term_hi": "अग्रिम जमानत",
+    "meaning_en": "Bail granted in advance, before arrest, to a person who fears being arrested for a non-bailable offence.",
+    "meaning_hi": "गिरफ्तारी से पहले ही दी जाने वाली जमानत, उस व्यक्ति को जिसे अजमानतीय अपराध में गिरफ्तारी का डर हो।",
+    "related": [
+      "BNSS Section 482"
+    ]
+  },
+  {
+    "slug": "appeal",
+    "term_en": "Appeal",
+    "term_hi": "अपील",
+    "meaning_en": "A request to a higher court to review and change the decision of a lower court or authority.",
+    "meaning_hi": "निचली अदालत या प्राधिकरण के फैसले की समीक्षा और बदलाव के लिए उच्च अदालत से किया गया अनुरोध।",
+    "related": []
+  },
+  {
+    "slug": "arrest",
+    "term_en": "Arrest",
+    "term_hi": "गिरफ्तारी",
+    "meaning_en": "Taking a person into legal custody. The law sets rules on when and how it can be done and what rights the person has.",
+    "meaning_hi": "किसी व्यक्ति को कानूनी हिरासत में लेना। कब और कैसे किया जा सकता है और व्यक्ति के क्या अधिकार हैं, इसके नियम कानून में हैं।",
+    "related": [
+      "Article 22",
+      "BNSS Section 35",
+      "BNSS Section 47"
+    ]
+  },
+  {
+    "slug": "bail",
+    "term_en": "Bail",
+    "term_hi": "जमानत",
+    "meaning_en": "Temporary release of an accused person while the case is going on, usually with conditions.",
+    "meaning_hi": "मुकदमा चलने के दौरान आरोपी की अस्थायी रिहाई, आमतौर पर शर्तों के साथ।",
+    "related": [
+      "BNSS Section 478",
+      "BNSS Section 480"
+    ]
+  },
+  {
+    "slug": "bailable-offence",
+    "term_en": "Bailable offence",
+    "term_hi": "जमानतीय अपराध",
+    "meaning_en": "A less serious offence in which the accused has a right to be released on bail.",
+    "meaning_hi": "कम गंभीर अपराध जिसमें आरोपी को जमानत पर रिहा होने का अधिकार होता है।",
+    "related": [
+      "BNSS Section 478"
+    ]
+  },
+  {
+    "slug": "charge-sheet",
+    "term_en": "Charge sheet",
+    "term_hi": "आरोप पत्र",
+    "meaning_en": "The police report sent to the magistrate when the investigation is complete, stating the evidence and the offences alleged.",
+    "meaning_hi": "जाँच पूरी होने पर पुलिस द्वारा मजिस्ट्रेट को भेजी गई रिपोर्ट, जिसमें सबूत और आरोपित अपराध बताए जाते हैं।",
+    "related": [
+      "BNSS Section 193"
+    ]
+  },
+  {
+    "slug": "cognizable-offence",
+    "term_en": "Cognizable offence",
+    "term_hi": "संज्ञेय अपराध",
+    "meaning_en": "A serious offence in which police can register an FIR and generally arrest without a warrant.",
+    "meaning_hi": "गंभीर अपराध जिसमें पुलिस FIR दर्ज कर सकती है और आम तौर पर बिना वारंट गिरफ्तार कर सकती है।",
+    "related": [
+      "BNSS Section 173",
+      "BNSS Section 35"
+    ]
+  },
+  {
+    "slug": "complainant",
+    "term_en": "Complainant",
+    "term_hi": "शिकायतकर्ता",
+    "meaning_en": "The person who makes a complaint or reports an offence.",
+    "meaning_hi": "वह व्यक्ति जो शिकायत करता है या किसी अपराध की रिपोर्ट देता है।",
+    "related": []
+  },
+  {
+    "slug": "default-bail",
+    "term_en": "Default bail",
+    "term_hi": "डिफ़ॉल्ट जमानत",
+    "meaning_en": "The right to bail when the police do not complete the investigation within the time limit set by law.",
+    "meaning_hi": "कानून द्वारा तय समय में पुलिस जाँच पूरी न करे तो आरोपी को मिलने वाला जमानत का अधिकार।",
+    "related": [
+      "BNSS Section 187"
+    ]
+  },
+  {
+    "slug": "fir",
+    "term_en": "FIR",
+    "term_hi": "प्रथम सूचना रिपोर्ट (FIR)",
+    "meaning_en": "First Information Report: the first written record of a cognizable offence, made by the police on receiving information.",
+    "meaning_hi": "प्रथम सूचना रिपोर्ट: संज्ञेय अपराध की सूचना मिलने पर पुलिस द्वारा बनाया गया पहला लिखित अभिलेख।",
+    "related": [
+      "BNSS Section 173",
+      "Lalita Kumari v. Government of U.P. (2014)"
+    ]
+  },
+  {
+    "slug": "fundamental-rights",
+    "term_en": "Fundamental rights",
+    "term_hi": "मौलिक अधिकार",
+    "meaning_en": "Basic rights guaranteed to people by Part III of the Constitution, which can be enforced in court.",
+    "meaning_hi": "संविधान के भाग III द्वारा लोगों को दिए गए बुनियादी अधिकार, जिन्हें अदालत में लागू कराया जा सकता है।",
+    "related": [
+      "Article 14",
+      "Article 19",
+      "Article 21"
+    ]
+  }
+]

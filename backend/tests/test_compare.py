@@ -43,3 +43,10 @@ def test_api_compare_ok_and_errors():
 def test_compare_route_is_not_shadowed_by_case_detail():
     assert client.get("/api/cases/DKBASU-1997").json()["id"] == "DKBASU-1997"
     assert "a" in client.get("/api/cases/compare", params={"a": "DKBASU-1997", "b": "MANEKA-1978"}).json()
+
+
+def test_hindi_notes_are_present():
+    r = pair("PUTTASWAMY-2017", "SHREYA-2015")
+    assert "बड़ी पीठ" in r["bench_note_hi"] and "9" in r["bench_note_hi"]
+    assert "अनुच्छेद 141" in r["binding_note_hi"] and r["caution_hi"]
+    assert pair("JOGINDER-1994", "DKBASU-1997")["bench_note_hi"] is None

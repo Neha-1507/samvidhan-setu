@@ -146,3 +146,21 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .case-col h3 { margin: 14px 0 2px; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
 .plain { padding-left: 1.1rem; }
 .plain li { margin-bottom: 6px; }
+
+/* library and More menu */
+.chip.save { margin-top: 8px; }
+.chip.save[aria-pressed="true"] { border-color: var(--saffron); box-shadow: inset 0 0 0 1px var(--saffron); }
+.more { position: relative; }
+.more summary { cursor: pointer; list-style: none; color: var(--muted); }
+.more summary::-webkit-details-marker { display: none; }
+.more summary::after { content: " \25BE"; }
+.more summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.more-menu { position: absolute; right: 0; top: 100%; z-index: 20; display: grid; min-width: 190px; max-width: 90vw; padding: 6px; margin-top: 6px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 6px 20px rgba(0, 0, 0, .12); }
+.bar nav .more-menu a { padding: 8px 12px; color: var(--ink); border-radius: 6px; }
+.bar nav .more-menu a:hover { background: var(--paper); }
+@media (max-width: 560px) { .more-menu { left: 0; right: auto; } }
+
+/* Ask examples */
+.chip-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.chip-list a.chip { display: inline-block; text-decoration: none; }
+.chip-list a.chip:hover { border-color: var(--accent); }

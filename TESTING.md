@@ -2,7 +2,7 @@
 
 ## 1. Backend automated tests
 cd backend && pip install -r requirements-dev.txt && pytest
-Expected: 79 tests pass (reportlab and cryptography are in requirements-dev) (nothing fails).
+Expected: 83 tests pass (reportlab and cryptography are in requirements-dev) (nothing fails).
 
 ## 2. Backend manual (server running)
 - http://localhost:8000/health                      -> {"status":"ok",...}
@@ -102,3 +102,22 @@ Restore: cp /tmp/acts.json data/bare_acts.json
 - Frontend /compare: pick two cases, two columns appear, "How they relate" box and the caution
 - Frontend /cases: each case has a "Compare" link that pre-selects the first case
 - Phone width: the two columns stack
+
+## My Library and navigation (added in part 10)
+- cd frontend && npm test            -> 13 tests pass (plain Node, no install needed)
+- Frontend /articles, /laws, /cases, /glossary and /ask results show a "Save" button; click -> "Saved" with a star
+- /library: items grouped (Constitution, Laws, Cases, Glossary), click one -> opens its page
+- Remove one; Export downloads samvidhan-setu-library.json; Clear all asks for confirmation
+- Save the same Article from /articles and from /ask -> one entry only
+- Open /library in two tabs, remove in one -> the other updates
+- Reload the browser -> items are still there; open a private window -> library is empty
+- Navigation: Ask, Constitution, Laws, Cases, Rights, Library, and a "More" menu (7 pages); the menu closes after you pick a page
+- Phone width: More menu stays inside the screen
+
+## Hindi compare notes, Ask examples, Docker (added in part 11)
+- /api/cases/compare?a=PUTTASWAMY-2017&b=SHREYA-2015 -> also returns bench_note_hi, binding_note_hi, caution_hi
+- Frontend /compare?...&lang=hi: the "How they relate" box and the warning are in Hindi
+- /api/ask/examples -> 7 sample questions; every one finds an answer (pytest checks)
+- Frontend /ask with no question: "Try asking" buttons; click one -> results; switch to Hindi -> Hindi labels
+- CORS_ORIGINS=https://example.org uvicorn app.main:app -> only that site may call the API from a browser
+- docker compose up --build (optional; not yet run by the author): app on :3000, API on :8000, pages load data

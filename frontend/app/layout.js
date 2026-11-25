@@ -1,5 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
+import MoreMenu from "../components/MoreMenu";
 
 export const metadata = {
   title: "Samvidhan Setu | संविधान सेतु",
@@ -12,19 +13,25 @@ export default function RootLayout({ children }) {
       <body>
         <header className="bar">
           <Link href="/" className="brand">संविधान सेतु</Link>
-          <nav>
+          <nav aria-label="Main">
+            <Link href="/ask">Ask</Link>
             <Link href="/articles">Constitution</Link>
             <Link href="/laws">Laws</Link>
             <Link href="/cases">Cases</Link>
-            <Link href="/compare">Compare</Link>
             <Link href="/rights">Rights</Link>
-            <Link href="/convert">Convert</Link>
-            <Link href="/analyze">Reader</Link>
-            <Link href="/glossary">Glossary</Link>
-            <Link href="/quiz">Quiz</Link>
-            <Link href="/schedules">Schedules</Link>
-            <Link href="/preamble">Preamble</Link>
-            <Link href="/ask">Ask</Link>
+            <Link href="/library">Library</Link>
+            <MoreMenu
+              label="More"
+              links={[
+                { href: "/compare", label: "Compare cases" },
+                { href: "/convert", label: "Old to new law" },
+                { href: "/analyze", label: "Document reader" },
+                { href: "/glossary", label: "Glossary" },
+                { href: "/quiz", label: "Quiz" },
+                { href: "/schedules", label: "Schedules" },
+                { href: "/preamble", label: "Preamble" },
+              ]}
+            />
           </nav>
         </header>
         <main className="wrap">{children}</main>

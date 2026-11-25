@@ -2,6 +2,8 @@ import Link from "next/link";
 import { fetchCases } from "../../lib/api";
 import { getLang, pick } from "../../lib/lang";
 import LangToggle from "../../components/LangToggle";
+import SaveButton from "../../components/SaveButton";
+import { caseItem } from "../../lib/library.mjs";
 
 export const metadata = { title: "Case Law | Samvidhan Setu" };
 
@@ -39,6 +41,7 @@ export default async function CasesPage({ searchParams }) {
             <a href={c.source} target="_blank" rel="noreferrer">{lang === "hi" ? "आधिकारिक स्रोत" : "Official source"}</a>
             {" | "}
             <Link href={`/compare?a=${c.id}&lang=${lang}`}>{lang === "hi" ? "तुलना करें" : "Compare"}</Link>
+            <SaveButton item={caseItem(c)} lang={lang} />
           </li>
         ))}
       </ul>

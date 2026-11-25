@@ -7,6 +7,7 @@ from .articles import load_articles
 ACTS_FILE = Path(__file__).resolve().parent.parent / "data" / "bare_acts.json"
 CASES_FILE = Path(__file__).resolve().parent.parent / "data" / "cases.json"
 RIGHTS_DIR = Path(__file__).resolve().parent.parent / "data" / "rights"
+GLOSSARY_DIR = Path(__file__).resolve().parent.parent / "data" / "glossary"
 
 
 def load_acts() -> list[dict]:
@@ -61,6 +62,21 @@ def load_rights() -> list[dict]:
 def get_right(slug: str) -> dict | None:
     slug = slug.strip().lower()
     return next((r for r in load_rights() if r["slug"] == slug), None)
+
+
+def load_glossary() -> list[dict]:
+    terms = []
+    for f in sorted(GLOSSARY_DIR.glob("*.json")):
+        terms.extend(json.loads(f.read_text(encoding="utf-8")))
+    return sorted(terms, key=lambda t: t["term_en"].lower())
+
+
+def search_glossary(q: str = "") -> list[dict]:
+    q = q.strip().lower()
+    return [
+        t for t in load_glossary()
+        if not q or q in " ".join([t["term_en"], t["term_hi"], t["meaning_en"], t["meaning_hi"]]).lower()
+    ]
 
 
 def load_corpus() -> list[dict]:

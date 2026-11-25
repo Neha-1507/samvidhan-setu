@@ -2,6 +2,8 @@ import Link from "next/link";
 import { fetchArticles } from "../../lib/api";
 import { getLang, pick, UI } from "../../lib/lang";
 import LangToggle from "../../components/LangToggle";
+import SaveButton from "../../components/SaveButton";
+import { articleItem } from "../../lib/library.mjs";
 
 export const metadata = { title: "Articles | Samvidhan Setu" };
 
@@ -36,6 +38,7 @@ export default async function ArticlesPage({ searchParams }) {
             <div className="num">{t.article} {a.number}</div>
             <h2><Link href={`/articles/${a.number}?lang=${lang}`}>{pick(a, "title", lang)}</Link></h2>
             <p>{pick(a, "summary", lang)}</p>
+            <SaveButton item={articleItem(a)} lang={lang} />
           </li>
         ))}
       </ul>

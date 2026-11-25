@@ -25,6 +25,12 @@ npm install
 npm run dev
 ```
 
+## Run with Docker
+```bash
+docker compose up --build
+```
+Settings and deployment notes: `docs/DEPLOY.md`
+
 ## Add more Articles
 Fill `backend/data/new_articles_template.csv`, then:
 ```bash
@@ -51,4 +57,5 @@ python scripts/mark_verified.py articles 21 22
 - [x] Legal learning: auto-generated quiz and a 28-term legal glossary (Hindi and English)
 - [x] 53 Bare Act sections (BNS, BNSS, BSA) with old IPC/CrPC/Evidence Act numbers
 - [~] Phase 4: Document intelligence (paste-text and text-PDF reader, old-to-new law converter done; OCR for scanned PDFs next)
+- [x] My Library: save Articles, sections, cases and terms in your browser (export as JSON)
 - [ ] Phase 5: Voice, court tracker, mobile

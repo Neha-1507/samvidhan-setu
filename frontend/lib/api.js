@@ -1,4 +1,5 @@
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// Server-side address first (inside Docker the API is at http://backend:8000), then the public one.
+const API = process.env.API_INTERNAL_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 async function get(path) {
   const res = await fetch(`${API}${path}`, { cache: "no-store" });

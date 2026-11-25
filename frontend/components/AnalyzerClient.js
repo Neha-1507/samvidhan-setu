@@ -16,6 +16,8 @@ const T = {
     provisions: "Laws found", unmatched: "Cited but not in our database yet", dates: "Dates", fir: "FIR numbers",
     earlier: "Earlier law", unverified: "Not yet verified", source: "Official source", none: "No section or article numbers were found.",
     error: "Could not read the text. Is the backend running?", tooShort: "Please paste at least 10 characters.",
+    upload: "Upload a PDF", pdfHint: "Text-based PDFs up to 5 MB. Scanned PDFs (photos of pages) are not supported yet; paste the text instead.",
+    notPdf: "Please choose a PDF file.", bigFile: "The file is larger than 5 MB.", pagesRead: "pages read", truncated: "Only the first part was read.",
   },
   hi: {
     title: "दस्तावेज़ पढ़ें", intro: "FIR, नोटिस या आदेश का टेक्स्ट चिपकाएँ। हम उसमें लिखे कानून ढूँढकर उनकी नई धाराएँ दिखाएँगे।",
@@ -24,6 +26,8 @@ const T = {
     provisions: "मिले हुए कानून", unmatched: "लिखे हैं पर हमारे डेटाबेस में अभी नहीं", dates: "तारीख़ें", fir: "FIR नंबर",
     earlier: "पुराना कानून", unverified: "सत्यापन बाकी", source: "आधिकारिक स्रोत", none: "कोई धारा या अनुच्छेद नंबर नहीं मिला।",
     error: "टेक्स्ट पढ़ा नहीं जा सका। क्या बैकएंड चालू है?", tooShort: "कृपया कम से कम 10 अक्षर चिपकाएँ।",
+    upload: "PDF अपलोड करें", pdfHint: "5 MB तक की टेक्स्ट वाली PDF। स्कैन की हुई PDF (पन्नों की फ़ोटो) अभी समर्थित नहीं; टेक्स्ट चिपकाएँ।",
+    notPdf: "कृपया PDF फ़ाइल चुनें।", bigFile: "फ़ाइल 5 MB से बड़ी है।", pagesRead: "पन्ने पढ़े गए", truncated: "केवल शुरुआती हिस्सा पढ़ा गया।",
   },
 };
 
@@ -33,6 +37,7 @@ export default function AnalyzerClient() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
+  const [pdfInfo, setPdfInfo] = useState(null);
   const t = T[lang];
 
   async function run() {
@@ -47,6 +52,31 @@ export default function AnalyzerClient() {
       });
       if (!res.ok) throw new Error("bad response");
       setResult(await res.json());
+    } catch {
+      setResult(null);
+      setMessage(t.error);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function uploadPdf(e) {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+    if (file.type !== "application/pdf" && !file.name.toLowerCase().endsWith(".pdf")) { setMessage(t.notPdf); return; }
+    if (file.size > 5 * 1024 * 1024) { setMessage(t.bigFile); return; }
+    setLoading(true);
+    setMessage("");
+    setPdfInfo(null);
+    try {
+      const form = new FormData();
+      form.append("file", file);
+      const res = await fetch(`${API}/api/analyze/pdf`, { method: "POST", body: form });
+      const data = await res.json().catch(() => null);
+      if (!res.ok) { setResult(null); setMessage(data?.detail?.message || t.error); return; }
+      setResult(data);
+      setPdfInfo(data.pdf);
     } catch {
       setResult(null);
       setMessage(t.error);
@@ -71,13 +101,21 @@ export default function AnalyzerClient() {
       <div className="row">
         <button type="button" className="btn" onClick={run} disabled={loading}>{loading ? t.working : t.analyze}</button>
         <button type="button" className="chip" onClick={() => setText(SAMPLE)}>{t.sample}</button>
-        <button type="button" className="chip" onClick={() => { setText(""); setResult(null); setMessage(""); }}>{t.clear}</button>
+        <button type="button" className="chip" onClick={() => { setText(""); setResult(null); setMessage(""); setPdfInfo(null); }}>{t.clear}</button>
       </div>
+      <div className="row">
+        <label className="chip upload">
+          {t.upload}
+          <input type="file" accept="application/pdf,.pdf" onChange={uploadPdf} disabled={loading} />
+        </label>
+      </div>
+      <p className="note">{t.pdfHint}</p>
       <p className="note">{t.privacy}</p>
       {message && <p className="note" role="alert">{message}</p>}
 
       {result && (
         <div aria-live="polite">
+          {pdfInfo && <p className="note">{pdfInfo.pages_read} / {pdfInfo.pages} {t.pagesRead}. {pdfInfo.truncated ? t.truncated : ""}</p>}
           {result.warnings.map((w) => <p key={w} className="warn" role="note">{w}</p>)}
           {result.mentions.length === 0 && <p className="note">{t.none}</p>}
 

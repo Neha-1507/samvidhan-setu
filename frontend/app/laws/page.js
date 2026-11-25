@@ -2,6 +2,8 @@ import Link from "next/link";
 import { fetchSections } from "../../lib/api";
 import { getLang, pick } from "../../lib/lang";
 import LangToggle from "../../components/LangToggle";
+import SaveButton from "../../components/SaveButton";
+import { sectionItem } from "../../lib/library.mjs";
 
 export const metadata = { title: "Laws | Samvidhan Setu" };
 
@@ -58,6 +60,7 @@ export default async function LawsPage({ searchParams }) {
             <p>{pick(s, "summary", lang)}</p>
             {s.replaces && <p className="note">{lang === "hi" ? "पुराना कानून" : "Earlier law"}: {s.replaces}</p>}
             <a href={s.source} target="_blank" rel="noreferrer">{lang === "hi" ? "आधिकारिक स्रोत" : "Official source"}</a>
+            <SaveButton item={sectionItem(s)} lang={lang} />
           </li>
         ))}
       </ul>

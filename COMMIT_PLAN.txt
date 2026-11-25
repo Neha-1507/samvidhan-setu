@@ -1,19 +1,23 @@
-# stage: case-compare
+# stage: polish-and-deploy
 # One file per commit, in this order.  Run: tools/commit_next.sh 3
 # Format: path|commit message
 
-backend/data/cases.json|data(cases): add legal issue, provisions and bench size to each case
-backend/tests/test_case_fields.py|test(cases): require issue field and check provisions exist
-backend/app/compare.py|feat(cases): add side-by-side case comparison logic
-backend/tests/test_compare.py|test(cases): cover comparison, bench note and error cases
-backend/app/cases.py|feat(cases): add /api/cases/compare endpoint
-docs/CASE_COMPARISON.md|docs: explain what case comparison does and does not do
-frontend/lib/api.js|feat(frontend): add fetchCompare
-frontend/app/compare/page.js|feat(frontend): add case comparison page
-frontend/app/cases/page.js|feat(frontend): add Compare link on each case
-frontend/app/globals.css|style(frontend): style comparison columns and form
-frontend/app/layout.js|feat(frontend): add Compare to navigation
-frontend/app/page.js|feat(frontend): add compare card on home
-README.md|docs: update roadmap for case comparison
-TESTING.md|docs: add case comparison checks to testing guide
-COMMIT_PLAN.txt|docs: add commit plan for the case comparison stage
+backend/app/compare.py|feat(cases): add Hindi bench, binding and caution notes to comparison
+backend/tests/test_compare.py|test(cases): check Hindi comparison notes
+frontend/app/compare/page.js|feat(frontend): show comparison notes in Hindi
+backend/app/ask.py|feat(ai): add /api/ask/examples sample questions
+backend/tests/test_ask_examples.py|test(ai): every example question must find an answer
+frontend/app/ask/page.js|feat(frontend): show Try asking buttons on empty Ask page
+frontend/app/globals.css|style(frontend): style example question buttons
+backend/app/main.py|feat(backend): read allowed websites from CORS_ORIGINS
+frontend/lib/api.js|feat(frontend): use API_INTERNAL_URL on the server side
+frontend/.env.example|docs(frontend): document API address settings
+backend/Dockerfile|feat(deploy): add backend Dockerfile
+backend/.dockerignore|chore(deploy): add backend .dockerignore
+frontend/Dockerfile|feat(deploy): add frontend Dockerfile
+frontend/.dockerignore|chore(deploy): add frontend .dockerignore
+docker-compose.yml|feat(deploy): add docker compose for backend and frontend
+docs/DEPLOY.md|docs: add deployment guide and pre-launch checklist
+README.md|docs: add Docker instructions
+TESTING.md|docs: add checks for Hindi compare, examples and Docker
+COMMIT_PLAN.txt|docs: add commit plan for the polish and deploy stage
