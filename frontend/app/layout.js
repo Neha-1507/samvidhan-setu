@@ -16,9 +16,11 @@ export default function RootLayout({ children }) {
             <Link href="/articles">Constitution</Link>
             <Link href="/laws">Laws</Link>
             <Link href="/cases">Cases</Link>
+            <Link href="/compare">Compare</Link>
             <Link href="/rights">Rights</Link>
             <Link href="/convert">Convert</Link>
             <Link href="/analyze">Reader</Link>
+            <Link href="/glossary">Glossary</Link>
             <Link href="/quiz">Quiz</Link>
             <Link href="/schedules">Schedules</Link>
             <Link href="/preamble">Preamble</Link>
