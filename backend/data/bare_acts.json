@@ -1,6 +1,24 @@
 [
   {
     "act": "BNS",
+    "section": "61",
+    "title_en": "Criminal conspiracy",
+    "title_hi": "आपराधिक षड्यंत्र",
+    "summary_en": "An agreement between two or more people to commit an offence is criminal conspiracy. The punishment depends on the offence they agreed to commit.",
+    "summary_hi": "दो या अधिक लोगों के बीच कोई अपराध करने का समझौता आपराधिक षड्यंत्र है। दंड इस पर निर्भर है कि किस अपराध पर सहमति हुई थी।",
+    "replaces": "IPC 120A, 120B",
+    "tags": [
+      "conspiracy",
+      "120B"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-61",
+    "verified": false
+  },
+  {
+    "act": "BNS",
     "section": "63",
     "title_en": "Rape",
     "title_hi": "बलात्कार",
@@ -35,6 +53,145 @@
     "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
     "act_name_hi": "भारतीय न्याय संहिता, 2023",
     "id": "BNS-64",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "74",
+    "title_en": "Assault or force on a woman to outrage her modesty",
+    "title_hi": "महिला की लज्जा भंग करने के इरादे से हमला या बल प्रयोग",
+    "summary_en": "Using force or assault on a woman intending to outrage her modesty is punishable with imprisonment of one to five years and fine.",
+    "summary_hi": "महिला की लज्जा भंग करने के इरादे से हमला या बल प्रयोग करने पर एक से पाँच वर्ष का कारावास और जुर्माना है।",
+    "replaces": "IPC 354",
+    "tags": [
+      "women",
+      "modesty",
+      "assault",
+      "354"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-74",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "75",
+    "title_en": "Sexual harassment",
+    "title_hi": "यौन उत्पीड़न",
+    "summary_en": "Unwelcome physical contact, a demand for sexual favours, showing pornography against a woman's will, or sexual remarks are punishable. The punishment depends on the act: up to three years for some, up to one year for remarks.",
+    "summary_hi": "अवांछित शारीरिक संपर्क, यौन संबंध की माँग, महिला की इच्छा के विरुद्ध अश्लील सामग्री दिखाना या यौन टिप्पणी दंडनीय है। दंड कृत्य पर निर्भर है: कुछ में तीन वर्ष तक, टिप्पणी पर एक वर्ष तक।",
+    "replaces": "IPC 354A",
+    "tags": [
+      "women",
+      "harassment",
+      "sexual harassment",
+      "354A"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-75",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "76",
+    "title_en": "Assault or force to disrobe a woman",
+    "title_hi": "महिला को निर्वस्त्र करने के इरादे से हमला या बल प्रयोग",
+    "summary_en": "Assaulting or using force on a woman with intent to disrobe her is punishable with imprisonment of three to seven years and fine.",
+    "summary_hi": "महिला को निर्वस्त्र करने के इरादे से हमला या बल प्रयोग करने पर तीन से सात वर्ष का कारावास और जुर्माना है।",
+    "replaces": "IPC 354B",
+    "tags": [
+      "women",
+      "assault",
+      "354B"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-76",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "77",
+    "title_en": "Voyeurism",
+    "title_hi": "दृश्यरतिकता",
+    "summary_en": "Watching or capturing images of a woman in a private act, or sharing such images, is punishable. A first conviction carries one to three years, a repeat conviction three to seven years, with fine.",
+    "summary_hi": "निजी कृत्य में महिला को देखना या उसकी तस्वीरें लेना या साझा करना दंडनीय है। पहली बार दोषसिद्धि पर एक से तीन वर्ष और दोबारा होने पर तीन से सात वर्ष, साथ में जुर्माना।",
+    "replaces": "IPC 354C",
+    "tags": [
+      "women",
+      "voyeurism",
+      "privacy",
+      "354C"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-77",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "78",
+    "title_en": "Stalking",
+    "title_hi": "पीछा करना",
+    "summary_en": "Following a woman or contacting or monitoring her online despite clear disinterest is stalking. A first conviction carries up to three years and a repeat conviction up to five years, with fine.",
+    "summary_hi": "स्पष्ट अनिच्छा के बावजूद महिला का पीछा करना या ऑनलाइन संपर्क व निगरानी करना पीछा करना है। पहली बार तीन वर्ष तक और दोबारा पाँच वर्ष तक कारावास, साथ में जुर्माना।",
+    "replaces": "IPC 354D",
+    "tags": [
+      "women",
+      "stalking",
+      "online",
+      "354D"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-78",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "79",
+    "title_en": "Word or gesture to insult a woman's modesty",
+    "title_hi": "महिला की लज्जा का अपमान करने वाले शब्द या इशारे",
+    "summary_en": "Words, sounds, gestures or objects meant to insult a woman's modesty or intrude on her privacy are punishable with up to three years and fine.",
+    "summary_hi": "महिला की लज्जा का अपमान करने या उसकी निजता में दखल देने वाले शब्द, आवाज़, इशारे या वस्तुएँ तीन वर्ष तक के कारावास और जुर्माने से दंडनीय हैं।",
+    "replaces": "IPC 509",
+    "tags": [
+      "women",
+      "modesty",
+      "insult",
+      "509"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-79",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "80",
+    "title_en": "Dowry death",
+    "title_hi": "दहेज मृत्यु",
+    "summary_en": "If a married woman dies unnaturally within seven years of marriage and was subjected to cruelty or harassment for dowry soon before her death, it is dowry death. Punishment is at least seven years and may extend to life imprisonment.",
+    "summary_hi": "यदि विवाहित महिला की विवाह के सात वर्ष के भीतर अस्वाभाविक मृत्यु हो और मृत्यु से ठीक पहले दहेज के लिए क्रूरता या उत्पीड़न हुआ हो, तो यह दहेज मृत्यु है। दंड कम से कम सात वर्ष और आजीवन कारावास तक हो सकता है।",
+    "replaces": "IPC 304B",
+    "tags": [
+      "dowry",
+      "women",
+      "death",
+      "304B"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-80",
     "verified": false
   },
   {
@@ -116,6 +273,65 @@
   },
   {
     "act": "BNS",
+    "section": "106",
+    "title_en": "Causing death by negligence",
+    "title_hi": "लापरवाही से मृत्यु कारित करना",
+    "summary_en": "Causing death by a rash or negligent act that is not culpable homicide is punishable with up to five years and fine. Running away after causing death by rash driving without reporting it carries up to ten years.",
+    "summary_hi": "लापरवाही या उतावलेपन से किसी की मृत्यु करना, जो सदोष मानव वध नहीं है, पाँच वर्ष तक कारावास और जुर्माने से दंडनीय है। उतावलेपन से गाड़ी चलाकर मृत्यु करने के बाद सूचना दिए बिना भाग जाने पर दस वर्ष तक।",
+    "replaces": "IPC 304A",
+    "tags": [
+      "negligence",
+      "accident",
+      "driving",
+      "hit and run",
+      "304A"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-106",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "108",
+    "title_en": "Abetment of suicide",
+    "title_hi": "आत्महत्या के लिए दुष्प्रेरण",
+    "summary_en": "Instigating or helping someone to die by suicide is punishable with imprisonment up to ten years and fine.",
+    "summary_hi": "किसी को आत्महत्या के लिए उकसाना या उसमें मदद करना दस वर्ष तक के कारावास और जुर्माने से दंडनीय है।",
+    "replaces": "IPC 306",
+    "tags": [
+      "suicide",
+      "abetment",
+      "306"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-108",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "109",
+    "title_en": "Attempt to murder",
+    "title_hi": "हत्या का प्रयास",
+    "summary_en": "Doing an act with the intention or knowledge that it could cause death, in circumstances that would amount to murder if death occurred, is punishable with up to ten years and fine. If hurt is caused, the punishment can be life imprisonment.",
+    "summary_hi": "ऐसा कार्य करना जिसका आशय या ज्ञान मृत्यु कारित करना हो, और जो मृत्यु होने पर हत्या कहलाता, दस वर्ष तक कारावास और जुर्माने से दंडनीय है। चोट पहुँचने पर आजीवन कारावास तक हो सकता है।",
+    "replaces": "IPC 307",
+    "tags": [
+      "murder",
+      "attempt",
+      "307"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-109",
+    "verified": false
+  },
+  {
+    "act": "BNS",
     "section": "115",
     "title_en": "Voluntarily causing hurt",
     "title_hi": "स्वेच्छया उपहति कारित करना",
@@ -131,6 +347,65 @@
     "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
     "act_name_hi": "भारतीय न्याय संहिता, 2023",
     "id": "BNS-115",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "117",
+    "title_en": "Voluntarily causing grievous hurt",
+    "title_hi": "स्वेच्छा से घोर उपहति पहुँचाना",
+    "summary_en": "Voluntarily causing grievous hurt, such as a broken bone or a serious injury, is punishable with up to seven years and fine.",
+    "summary_hi": "स्वेच्छा से घोर उपहति पहुँचाना, जैसे हड्डी टूटना या गंभीर चोट, सात वर्ष तक के कारावास और जुर्माने से दंडनीय है।",
+    "replaces": "IPC 322, 325",
+    "tags": [
+      "grievous hurt",
+      "injury",
+      "assault",
+      "325"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-117",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "137",
+    "title_en": "Kidnapping",
+    "title_hi": "व्यपहरण",
+    "summary_en": "Taking or enticing a minor or a person of unsound mind away from lawful guardianship, or taking a person by force or deceit, is kidnapping. It is punishable with up to seven years and fine.",
+    "summary_hi": "नाबालिग या विकृत चित्त व्यक्ति को वैध संरक्षक से दूर ले जाना या बहकाना, या किसी को बल या छल से ले जाना व्यपहरण है। सात वर्ष तक का कारावास और जुर्माना।",
+    "replaces": "IPC 359, 363",
+    "tags": [
+      "kidnapping",
+      "minor",
+      "363"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-137",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "196",
+    "title_en": "Promoting enmity between groups",
+    "title_hi": "समूहों के बीच शत्रुता बढ़ाना",
+    "summary_en": "Promoting enmity between groups on grounds such as religion, race, language or place of birth is punishable with up to three years, or fine, or both.",
+    "summary_hi": "धर्म, नस्ल, भाषा या जन्मस्थान जैसे आधारों पर समूहों के बीच शत्रुता बढ़ाना तीन वर्ष तक कारावास, या जुर्माने, या दोनों से दंडनीय है।",
+    "replaces": "IPC 153A",
+    "tags": [
+      "enmity",
+      "hate speech",
+      "communal",
+      "153A"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-196",
     "verified": false
   },
   {
@@ -154,6 +429,83 @@
   },
   {
     "act": "BNS",
+    "section": "308",
+    "title_en": "Extortion",
+    "title_hi": "उद्दापन",
+    "summary_en": "Putting a person in fear of injury to make them hand over property is extortion. It is punishable with up to seven years, or fine, or both.",
+    "summary_hi": "चोट के डर से किसी को संपत्ति देने के लिए विवश करना उद्दापन है। सात वर्ष तक कारावास, या जुर्माना, या दोनों।",
+    "replaces": "IPC 383, 384",
+    "tags": [
+      "extortion",
+      "threat",
+      "property",
+      "384"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-308",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "309",
+    "title_en": "Robbery",
+    "title_hi": "लूट",
+    "summary_en": "Theft or extortion done with violence or the threat of instant harm is robbery. It is punishable with rigorous imprisonment and fine, with higher punishment in the cases the section lists.",
+    "summary_hi": "हिंसा या तत्काल हानि की धमकी के साथ की गई चोरी या उद्दापन लूट है। सश्रम कारावास और जुर्माना, और धारा में बताए गए मामलों में अधिक दंड।",
+    "replaces": "IPC 390, 392",
+    "tags": [
+      "robbery",
+      "violence",
+      "392"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-309",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "310",
+    "title_en": "Dacoity",
+    "title_hi": "डकैती",
+    "summary_en": "Robbery committed by five or more persons together is dacoity. It is punishable with life imprisonment or rigorous imprisonment up to ten years, and fine.",
+    "summary_hi": "पाँच या अधिक व्यक्तियों द्वारा मिलकर की गई लूट डकैती है। आजीवन कारावास या दस वर्ष तक सश्रम कारावास और जुर्माना।",
+    "replaces": "IPC 391, 395",
+    "tags": [
+      "dacoity",
+      "robbery",
+      "395"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-310",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "316",
+    "title_en": "Criminal breach of trust",
+    "title_hi": "आपराधिक न्यासभंग",
+    "summary_en": "Dishonestly misusing or misappropriating property that you were trusted with is criminal breach of trust. It is punishable with up to five years, or fine, or both.",
+    "summary_hi": "जो संपत्ति आपको सौंपी गई हो उसका बेईमानी से दुरुपयोग करना आपराधिक न्यासभंग है। पाँच वर्ष तक कारावास, या जुर्माना, या दोनों।",
+    "replaces": "IPC 405, 406",
+    "tags": [
+      "breach of trust",
+      "property",
+      "406"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-316",
+    "verified": false
+  },
+  {
+    "act": "BNS",
     "section": "318",
     "title_en": "Cheating",
     "title_hi": "छल (धोखाधड़ी)",
@@ -169,6 +521,44 @@
     "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
     "act_name_hi": "भारतीय न्याय संहिता, 2023",
     "id": "BNS-318",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "329",
+    "title_en": "Criminal trespass",
+    "title_hi": "आपराधिक अतिचार",
+    "summary_en": "Entering another person's property to commit an offence, or to intimidate, insult or annoy them, is criminal trespass. It is punishable with up to three months, or fine up to five thousand rupees, or both.",
+    "summary_hi": "अपराध करने, या किसी को डराने, अपमानित करने या परेशान करने के इरादे से दूसरे की संपत्ति में घुसना आपराधिक अतिचार है। तीन माह तक कारावास, या पाँच हज़ार रुपये तक जुर्माना, या दोनों।",
+    "replaces": "IPC 441, 447",
+    "tags": [
+      "trespass",
+      "property",
+      "447"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-329",
+    "verified": false
+  },
+  {
+    "act": "BNS",
+    "section": "336",
+    "title_en": "Forgery",
+    "title_hi": "कूटरचना",
+    "summary_en": "Making a false document or electronic record with intent to cheat or cause harm is forgery. It is punishable with up to two years, or fine, or both.",
+    "summary_hi": "धोखा देने या हानि पहुँचाने के इरादे से झूठा दस्तावेज़ या इलेक्ट्रॉनिक अभिलेख बनाना कूटरचना है। दो वर्ष तक कारावास, या जुर्माना, या दोनों।",
+    "replaces": "IPC 463, 465",
+    "tags": [
+      "forgery",
+      "fake document",
+      "465"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-336",
     "verified": false
   },
   {
@@ -191,6 +581,26 @@
     "verified": false
   },
   {
+    "act": "BNS",
+    "section": "353",
+    "title_en": "Statements causing public mischief",
+    "title_hi": "लोक रिष्टि फैलाने वाले कथन",
+    "summary_en": "Making or spreading statements, rumours or reports that may cause fear or alarm, or incite offences against the State or public peace, is punishable with up to three years, or fine, or both.",
+    "summary_hi": "भय या आतंक फैलाने वाले, या राज्य या लोक शांति के विरुद्ध अपराध भड़काने वाले कथन, अफ़वाह या रिपोर्ट बनाना या फैलाना तीन वर्ष तक कारावास, या जुर्माने, या दोनों से दंडनीय है।",
+    "replaces": "IPC 505",
+    "tags": [
+      "rumour",
+      "fake news",
+      "public mischief",
+      "505"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name_hi": "भारतीय न्याय संहिता, 2023",
+    "id": "BNS-353",
+    "verified": false
+  },
+  {
     "act": "BNSS",
     "section": "35",
     "title_en": "Arrest by police without warrant",
@@ -208,6 +618,26 @@
     "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
     "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
     "id": "BNSS-35",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "43",
+    "title_en": "How an arrest is made",
+    "title_hi": "गिरफ्तारी कैसे की जाती है",
+    "summary_en": "An arrest is made by touching or confining the person unless they submit. Force can be used only as far as needed, and there are special rules for arresting a woman.",
+    "summary_hi": "गिरफ्तारी व्यक्ति को छूकर या रोककर की जाती है, जब तक वह स्वयं समर्पण न कर दे। बल केवल उतना ही प्रयोग हो सकता है जितना आवश्यक हो, और महिला की गिरफ्तारी के लिए विशेष नियम हैं।",
+    "replaces": "CrPC 46",
+    "tags": [
+      "arrest",
+      "woman",
+      "force",
+      "46"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-43",
     "verified": false
   },
   {
@@ -252,6 +682,46 @@
   },
   {
     "act": "BNSS",
+    "section": "94",
+    "title_en": "Summons to produce a document or thing",
+    "title_hi": "दस्तावेज़ या वस्तु प्रस्तुत करने का समन",
+    "summary_en": "A court or a police officer in charge of a station can ask a person to produce a document or thing needed for an investigation or trial.",
+    "summary_hi": "न्यायालय या थाने का प्रभारी पुलिस अधिकारी किसी व्यक्ति से जाँच या विचारण के लिए आवश्यक दस्तावेज़ या वस्तु प्रस्तुत करने को कह सकता है।",
+    "replaces": "CrPC 91",
+    "tags": [
+      "summons",
+      "documents",
+      "91"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-94",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "144",
+    "title_en": "Maintenance of wife, children and parents",
+    "title_hi": "पत्नी, बच्चों और माता-पिता का भरण-पोषण",
+    "summary_en": "A magistrate can order a person with enough means to pay monthly maintenance to a wife who cannot maintain herself, to children, or to parents.",
+    "summary_hi": "पर्याप्त साधन वाले व्यक्ति को मजिस्ट्रेट आदेश दे सकता है कि वह स्वयं का भरण-पोषण न कर सकने वाली पत्नी, बच्चों या माता-पिता को मासिक भरण-पोषण दे।",
+    "replaces": "CrPC 125",
+    "tags": [
+      "maintenance",
+      "wife",
+      "children",
+      "parents",
+      "125"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-144",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
     "section": "173",
     "title_en": "Information in cognizable cases (FIR)",
     "title_hi": "संज्ञेय अपराधों में सूचना (प्राथमिकी/FIR)",
@@ -273,6 +743,47 @@
   },
   {
     "act": "BNSS",
+    "section": "179",
+    "title_en": "Police power to require attendance of witnesses",
+    "title_hi": "गवाहों को बुलाने की पुलिस की शक्ति",
+    "summary_en": "Police can require a person who knows the facts of a case to attend. Women, children and some other persons can be questioned at their residence.",
+    "summary_hi": "पुलिस मामले के तथ्य जानने वाले व्यक्ति को उपस्थित होने की अपेक्षा कर सकती है। महिलाओं, बच्चों और कुछ अन्य व्यक्तियों से उनके निवास पर पूछताछ की जा सकती है।",
+    "replaces": "CrPC 160",
+    "tags": [
+      "police",
+      "witness",
+      "questioning",
+      "residence",
+      "160"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-179",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "183",
+    "title_en": "Recording of confessions and statements",
+    "title_hi": "संस्वीकृति और कथनों का अभिलेखन",
+    "summary_en": "A magistrate can record a confession or statement made during an investigation, after warning the person that it can be used as evidence.",
+    "summary_hi": "मजिस्ट्रेट जाँच के दौरान की गई संस्वीकृति या कथन दर्ज कर सकता है, पहले व्यक्ति को चेतावनी देकर कि उसे साक्ष्य के रूप में उपयोग किया जा सकता है।",
+    "replaces": "CrPC 164",
+    "tags": [
+      "confession",
+      "statement",
+      "magistrate",
+      "164"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-183",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
     "section": "187",
     "title_en": "When investigation cannot be completed in 24 hours",
     "title_hi": "जब जाँच 24 घंटे में पूरी न हो सके",
@@ -289,6 +800,44 @@
     "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
     "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
     "id": "BNSS-187",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "193",
+    "title_en": "Police report on completion of investigation",
+    "title_hi": "जाँच पूरी होने पर पुलिस रिपोर्ट",
+    "summary_en": "When the investigation is complete, the police send a report, commonly called the charge sheet, to the magistrate.",
+    "summary_hi": "जाँच पूरी होने पर पुलिस मजिस्ट्रेट को रिपोर्ट भेजती है, जिसे आम तौर पर आरोप पत्र (चार्जशीट) कहते हैं।",
+    "replaces": "CrPC 173",
+    "tags": [
+      "charge sheet",
+      "investigation",
+      "173"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-193",
+    "verified": false
+  },
+  {
+    "act": "BNSS",
+    "section": "223",
+    "title_en": "Examination of the complainant",
+    "title_hi": "शिकायतकर्ता की परीक्षा",
+    "summary_en": "When a magistrate takes up a complaint, the complainant is examined on oath before the magistrate decides whether to proceed.",
+    "summary_hi": "मजिस्ट्रेट शिकायत लेते समय आगे बढ़ने का निर्णय करने से पहले शिकायतकर्ता की शपथ पर परीक्षा करता है।",
+    "replaces": "CrPC 200",
+    "tags": [
+      "complaint",
+      "magistrate",
+      "200"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-223",
     "verified": false
   },
   {
@@ -389,6 +938,26 @@
     "verified": false
   },
   {
+    "act": "BNSS",
+    "section": "528",
+    "title_en": "Inherent powers of the High Court",
+    "title_hi": "उच्च न्यायालय की अंतर्निहित शक्तियाँ",
+    "summary_en": "The High Court has inherent power to pass orders needed to give effect to the law, prevent abuse of the court's process or secure justice, for example by quashing proceedings. Note: this is the old CrPC 482, not the new BNSS 482.",
+    "summary_hi": "उच्च न्यायालय को कानून को प्रभावी करने, न्यायालय की प्रक्रिया के दुरुपयोग को रोकने या न्याय सुनिश्चित करने के लिए आदेश देने की अंतर्निहित शक्ति है, जैसे कार्यवाही रद्द करना। ध्यान दें: यह पुरानी CrPC 482 है, नई BNSS 482 नहीं।",
+    "replaces": "CrPC 482",
+    "tags": [
+      "inherent powers",
+      "quash",
+      "high court",
+      "CrPC 482"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name_hi": "भारतीय नागरिक सुरक्षा संहिता, 2023",
+    "id": "BNSS-528",
+    "verified": false
+  },
+  {
     "act": "BSA",
     "section": "23",
     "title_en": "Confession to a police officer",
@@ -406,6 +975,44 @@
     "act_name_en": "Bharatiya Sakshya Adhiniyam, 2023",
     "act_name_hi": "भारतीय साक्ष्य अधिनियम, 2023",
     "id": "BSA-23",
+    "verified": false
+  },
+  {
+    "act": "BSA",
+    "section": "57",
+    "title_en": "Primary evidence",
+    "title_hi": "प्राथमिक साक्ष्य",
+    "summary_en": "Primary evidence is the original document itself, shown to the court. Under the BSA, electronic records can also count as primary evidence in the situations the section lists.",
+    "summary_hi": "प्राथमिक साक्ष्य स्वयं मूल दस्तावेज़ है, जो न्यायालय को दिखाया जाता है। BSA में इलेक्ट्रॉनिक अभिलेख भी धारा में बताई स्थितियों में प्राथमिक साक्ष्य माने जा सकते हैं।",
+    "replaces": "Evidence Act 62",
+    "tags": [
+      "primary evidence",
+      "original document",
+      "62"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Sakshya Adhiniyam, 2023",
+    "act_name_hi": "भारतीय साक्ष्य अधिनियम, 2023",
+    "id": "BSA-57",
+    "verified": false
+  },
+  {
+    "act": "BSA",
+    "section": "58",
+    "title_en": "Secondary evidence",
+    "title_hi": "द्वितीयक साक्ष्य",
+    "summary_en": "Secondary evidence means substitutes for the original, such as certified copies or oral accounts of it. It can be used only in the situations the law allows.",
+    "summary_hi": "द्वितीयक साक्ष्य का अर्थ मूल की जगह के विकल्प हैं, जैसे प्रमाणित प्रतियाँ या उसका मौखिक विवरण। इसका उपयोग केवल कानून द्वारा अनुमत स्थितियों में हो सकता है।",
+    "replaces": "Evidence Act 63",
+    "tags": [
+      "secondary evidence",
+      "copy",
+      "63"
+    ],
+    "source": "https://www.indiacode.nic.in/",
+    "act_name_en": "Bharatiya Sakshya Adhiniyam, 2023",
+    "act_name_hi": "भारतीय साक्ष्य अधिनियम, 2023",
+    "id": "BSA-58",
     "verified": false
   },
   {
