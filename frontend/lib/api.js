@@ -17,3 +17,5 @@ export const fetchRights = () => get("/api/rights");
 export const fetchRight = (slug) => get(`/api/rights/${encodeURIComponent(slug)}`);
 export const fetchConvert = (law, section) =>
   get(`/api/convert?law=${encodeURIComponent(law)}&section=${encodeURIComponent(section)}`);
+export const fetchGlossary = (q = "") => get(`/api/glossary?q=${encodeURIComponent(q)}`);
+export const fetchCompare = (a, b) => get(`/api/cases/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);
