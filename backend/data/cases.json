@@ -16,7 +16,11 @@
       "landmark"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 13,
+    "provisions": [],
+    "legal_issue_en": "Can Parliament use its power to amend the Constitution to change any part of it?",
+    "legal_issue_hi": "क्या संसद संविधान संशोधन की अपनी शक्ति से संविधान के किसी भी हिस्से को बदल सकती है?"
   },
   {
     "id": "MANEKA-1978",
@@ -37,7 +41,15 @@
       "landmark"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 7,
+    "provisions": [
+      "Article 14",
+      "Article 19",
+      "Article 21"
+    ],
+    "legal_issue_en": "Can a law restrict personal liberty by any procedure, or must the procedure itself be fair?",
+    "legal_issue_hi": "क्या कानून किसी भी प्रक्रिया से दैहिक स्वतंत्रता सीमित कर सकता है, या प्रक्रिया का स्वयं निष्पक्ष होना ज़रूरी है?"
   },
   {
     "id": "JOGINDER-1994",
@@ -57,7 +69,14 @@
       "rights"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": null,
+    "provisions": [
+      "Article 21",
+      "Article 22"
+    ],
+    "legal_issue_en": "Does the power to arrest mean police may arrest in every case?",
+    "legal_issue_hi": "क्या गिरफ्तारी की शक्ति का मतलब है कि पुलिस हर मामले में गिरफ्तार कर सकती है?"
   },
   {
     "id": "DKBASU-1997",
@@ -79,7 +98,16 @@
       "guidelines"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 2,
+    "provisions": [
+      "Article 21",
+      "Article 22",
+      "BNSS Section 47",
+      "BNSS Section 58"
+    ],
+    "legal_issue_en": "What safeguards are needed to prevent torture and abuse in police custody?",
+    "legal_issue_hi": "हिरासत में यातना और दुरुपयोग रोकने के लिए कौन से सुरक्षा उपाय ज़रूरी हैं?"
   },
   {
     "id": "LALITA-2014",
@@ -98,7 +126,13 @@
       "complaint"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 5,
+    "provisions": [
+      "BNSS Section 173"
+    ],
+    "legal_issue_en": "Must police register an FIR whenever a cognizable offence is reported, or may they inquire first?",
+    "legal_issue_hi": "क्या संज्ञेय अपराध की सूचना पर पुलिस को FIR दर्ज करनी ही होगी, या वह पहले जाँच कर सकती है?"
   },
   {
     "id": "ARNESH-2014",
@@ -120,7 +154,13 @@
       "notice of appearance"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 2,
+    "provisions": [
+      "BNSS Section 35"
+    ],
+    "legal_issue_en": "Should police arrest automatically in offences like cruelty to a wife, punishable up to seven years? (Decided under the old CrPC 41, now BNSS 35.)",
+    "legal_issue_hi": "क्या पत्नी के प्रति क्रूरता जैसे सात वर्ष तक की सजा वाले अपराधों में पुलिस को स्वतः गिरफ्तार करना चाहिए? (पुरानी CrPC 41 के तहत तय, अब BNSS 35।)"
   },
   {
     "id": "SHREYA-2015",
@@ -141,7 +181,13 @@
       "social media"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 2,
+    "provisions": [
+      "Article 19"
+    ],
+    "legal_issue_en": "Does Section 66A of the IT Act restrict free speech online beyond what the Constitution allows?",
+    "legal_issue_hi": "क्या आईटी एक्ट की धारा 66A ऑनलाइन अभिव्यक्ति पर संविधान की अनुमति से अधिक रोक लगाती है?"
   },
   {
     "id": "PUTTASWAMY-2017",
@@ -161,6 +207,14 @@
       "landmark"
     ],
     "source": "https://www.sci.gov.in/",
-    "verified": false
+    "verified": false,
+    "bench_size": 9,
+    "provisions": [
+      "Article 14",
+      "Article 19",
+      "Article 21"
+    ],
+    "legal_issue_en": "Is the right to privacy a fundamental right under the Constitution?",
+    "legal_issue_hi": "क्या निजता का अधिकार संविधान के तहत मौलिक अधिकार है?"
   }
 ]
